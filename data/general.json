@@ -1,0 +1,214 @@
+[{
+	"title":"Pronomes",
+	"content":[
+		{"palavra":"o, a","woord":"de, het"},
+		{"palavra":"um, uma","woord":"een"},
+		{"palavra":"os, as, uns, umas","woord":"de"}
+	]
+},{
+	"title":"Perguntas",
+	"content":[
+		{"palavra":"como","woord":"hoe"},
+		{"palavra":"quantos","woord":"hoeveel"},
+		{"palavra":"onde","woord":"waar"},
+		{"palavra":"porque","woord":"waarom"},
+		{"palavra":"quando","woord":"wanneer"},
+		{"palavra":"que","woord":"wat"},
+		{"palavra":"quem","woord":"wie"},
+		{"palavra":"qual","woord":"welk, welke"}
+	]
+},{
+	"title":"Pronome pessoal",
+	"content":[
+		{"palavra":"Eu","woord":"ik"},
+		{"palavra":"Voce","woord":"jij, je"},
+		{"palavra":"Ele","woord":"hij"},
+		{"palavra":"Ela","woord":"zij"},
+		{"palavra":"O senhor","woord":"u"},
+		{"palavra":"Eles","woord":"zij, ze"},
+		{"palavra":"Nos","woord":"wij, we"},
+
+		{"palavra":"se","woord":"zich"},
+		{"palavra":"mesmo","woord":"zelf"}
+	]
+},{
+	"title":"Pronomes possessivos",
+	"content":[
+		{"palavra":"meu","woord":"mij, mijn"},
+		{"palavra":"seu","woord":"jouw"},
+		{"palavra":"seu","woord":"hem, zijn"},
+		{"palavra":"seu","woord":"haar"},
+		{"palavra":"seu","woord":"uw"},
+		{"palavra":"deles","woord":"hun"},
+		{"palavra":"nossos","woord":"ons, onze"}
+	]
+},{
+	"title":"Adverbios",
+	"content":[
+		{"palavra":"e","woord":"en"},
+
+		{"palavra":"esse, aquele","woord":"dat, die","uitleg":"dat (palavras com 'het'), die (palavras com 'de')"},
+		{"palavra":"este","woord":"dit, deze","uitleg":"dit (palavras com 'het'), deze (palavras com 'de')"},
+
+		{"palavra":"sim","woord":"ja, wel","uitleg":"ja (sozinho), wel (na senha)"},
+		{"palavra":"nao","woord":"nee, niet","uitleg":"nee (sozinho), niet (na senha)"},
+		{"palavra":"bom - melhor - o melhor","woord":"goed - beter - best"},
+		{"palavra":"bom","woord":"leuk","uitleg":"gostar"},
+		{"palavra":"bem","woord":"fijn"},
+		{"palavra":"mal","woord":"slecht"},
+		{"palavra":"nunca","woord":"geen"},
+		{"palavra":"por favor","woord":"graag"},
+		{"palavra":"linda","woord":"mooi"}
+	]
+},{
+	"title":"Tempo",
+	"content":[
+		{"palavra":"a/as","woord":"om"},
+
+		{"palavra":"noite","woord":"de avond"},
+		{"palavra":"hoje a noite","woord":"vanavond"},
+		{"palavra":"a noite","woord":"'s avonds"},
+		{"palavra":"de manha","woord":"de ochtend"},
+		{"palavra":"hoje de manha","woord":"vanochtend"},
+		{"palavra":"de manha","woord":"'s ochtends"},
+		{"palavra":"hoje","woord":"vandaag"},
+		{"palavra":"tempo","woord":"de tijd"},
+		{"palavra":"dia de festa","woord":"de feestdag"},
+		{"palavra":"amanha","woord":"morgen"},
+		{"palavra":"ontem","woord":"gisteren"},
+
+		{"palavra":"hora","woord":"het uur"},
+		{"palavra":"dia","woord":"de dag(en)"},
+		{"palavra":"semana","woord":"de week"},
+		{"palavra":"fim de semana","woord":"het weekend"},
+		{"palavra":"mes","woord":"de maand"},
+		{"palavra":"ano","woord":"het jaar"},
+
+		{"palavra":"cedo","woord":"vroeg"},
+		{"palavra":"tarde","woord":"laat"},
+		{"palavra":"agora","woord":"nu"},
+		{"palavra":"depois","woord":"straks"},
+		{"palavra":"as vezes","woord":"soms"},
+		{"palavra":"muitos vezes","woord":"vaak"},
+		{"palavra":"já","woord":"pas"},
+		{"palavra":"já","woord":"al"},
+		{"palavra":"sempre","woord":"altijd"},
+		{"palavra":"primeiro","woord":"eerst"},
+		{"palavra":"depois","woord":"daarna"},
+		{"palavra":"depois","woord":"later"},
+		{"palavra":"que","woord":"dan"},
+		{"palavra":"quase","woord":"bijna"},
+		{"palavra":"também","woord":"ook"},
+		{"palavra":"proximo","woord":"volgende"},
+		{"palavra":"anterior","woord":"vorige"},
+		{"palavra":"nunca","woord":"nooit"},
+		{"palavra":"geralmente","woord":"meestal"},
+		{"palavra":"entao","woord":"zo"}
+	]
+},{
+	"title":"Dias",
+	"content":[
+		{"palavra":"segunda","woord":"maandag"},
+		{"palavra":"terca","woord":"dinsdag"},
+		{"palavra":"quarta","woord":"woensdag"},
+		{"palavra":"quinta","woord":"donderdag"},
+		{"palavra":"sexta","woord":"vrijdag"},
+		{"palavra":"sabado","woord":"zaterdag"},
+		{"palavra":"domingo","woord":"zondag"}
+	]
+},{
+	"title":"Numeros",
+	"content":[
+		{"palavra":"um","woord":"één"},
+		{"palavra":"dois","woord":"twee"},
+		{"palavra":"tres","woord":"drie"},
+		{"palavra":"quatro","woord":"vier"},
+		{"palavra":"cinco","woord":"vijf"},
+		{"palavra":"seis","woord":"zes"},
+		{"palavra":"sete","woord":"zeven"},
+		{"palavra":"oito","woord":"acht"},
+		{"palavra":"nove","woord":"negen"},
+		{"palavra":"dez","woord":"tien"}
+	]
+},{
+	"title":"Cor",
+	"content":[
+		{"palavra":"amarelo","woord":"geel"},
+		{"palavra":"vermelho","woord":"rood"},
+		{"palavra":"verde","woord":"groen"},
+		{"palavra":"azul","woord":"blauw"},
+		{"palavra":"branco","woord":"wit"},
+		{"palavra":"preto","woord":"zwart"}
+	]
+},{
+	"title":"General",
+	"content":[
+		{"palavra":"pronto","woord":"klaar"},
+		{"palavra":"novo","woord":"nieuw(e)"},
+		{"palavra":"feliz","woord":"blij"},
+		{"palavra":"rapido","woord":"snel"},
+		{"palavra":"lentamente","woord":"langzaam"},
+		{"palavra":"grande - mais grande","woord":"groot - groter"},
+		{"palavra":"pequeno","woord":"klein"},
+		{"palavra":"doce - mais doce - o mais doce","woord":"lief -liever - liefst"},
+		{"palavra":"gordo","woord":"dik"},
+		{"palavra":"gebrado","woord":"kapot"},
+		{"palavra":"zangado","woord":"boos"},
+		{"palavra":"vazio","woord":"leeg"},
+		{"palavra":"cheio","woord":"vol"},
+		{"palavra":"limpa","woord":"schoon"},
+		{"palavra":"quente","woord":"warm"},
+		{"palavra":"frio","woord":"koud"},
+		{"palavra":"obscuro","woord":"donker"},
+		{"palavra":"ocupado","woord":"druk"},
+		{"palavra":"quieto","woord":"stil"},
+		{"palavra":"pobre","woord":"arm"},
+		{"palavra":"longo - mais longo - o mais longo","woord":"lang - langer - langst"},
+		{"palavra":"pressa","woord":"haast"},
+		{"palavra":"sujo","woord":"vies, vieze"},
+		{"palavra":"fechado","woord":"dicht"},
+		{"palavra":"demi","woord":"half"},
+		{"palavra":"duro","woord":"hard"},
+		{"palavra":"ansioso","woord":"zin"},
+		{"palavra":"dificil","woord":"moeilijk"},
+		{"palavra":"aniversario","woord":"jarig"}
+	]
+},{
+	"title":"Preposicoes, adverbios, alguns",
+	"content":[
+		{"palavra":"em","woord":"bij","uitleg":"ao lado"},
+		{"palavra":"em","woord":"in","uitleg":"entre"},
+		{"palavra":"aqui","woord":"hier"},
+		{"palavra":"com","woord":"met"},
+		{"palavra":"para","woord":"naar"},
+		{"palavra":"para","woord":"voor"},
+		{"palavra":"sobre","woord":"op"},
+		{"palavra":"de","woord":"van"},
+		{"palavra":"fora","woord":"af"},
+		{"palavra":"para","woord":"aan"},
+		{"palavra":"lá","woord":"daar"},
+		{"palavra":"sobre","woord":"over"},
+		{"palavra":"demais","woord":"te"},
+		{"palavra":"contra","woord":"tegen"},
+		{"palavra":"cada","woord":"elk(e)"},
+		{"palavra":"cada","woord":"iedere"},
+		{"palavra":"em torno","woord":"om"},
+		{"palavra":"fora","woord":"uit"},
+		{"palavra":"fora","woord":"buiten"},
+		{"palavra":"ao lado de","woord":"naast"},
+		{"palavra":"até","woord":"tot"},
+		{"palavra":"longe","woord":"ver"},
+		{"palavra":"depois","woord":"na"},
+		{"palavra":"com","woord":"als"},
+		{"palavra":"tudo","woord":"alles"},
+		{"palavra":"muito","woord":"veel"},
+		{"palavra":"pouco","woord":"weinig"},
+		{"palavra":"muito","woord":"heel, hele"},
+		{"palavra":"ainda","woord":"nog"},
+		{"palavra":"algum","woord":"iets"},
+		{"palavra":"mais","woord":"meer"},
+		{"palavra":"há","woord":"er (er is)"},
+		{"palavra":"perdido","woord":"weg"},
+		{"palavra":"perdido","woord":"kwijt"}
+	]
+}]
