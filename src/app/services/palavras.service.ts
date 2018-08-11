@@ -14,7 +14,7 @@ export class PalavrasService {
 
   constructor(private http: Http) { }
 
-  get(): Observable<Collection<Palavra>> {
+  get(): Observable<Array<Collection<Palavra>>> {
     return this.http
       .get(this.url)
       .pipe(map((res:Response) => res.json()));

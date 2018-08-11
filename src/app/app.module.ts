@@ -9,6 +9,7 @@ import {PalavrasService} from './services/palavras.service';
 import {VerbosService} from './services/verbos.service';
 import { HttpModule } from '../../node_modules/@angular/http';
 import { AppRoutingModule } from './/app-routing.module';
+import { FormsModule } from '@angular/forms';
 import { GeneralComponent } from './components/general/general.component';
 import { PalavrasComponent } from './components/palavras/palavras.component';
 import { VerbosComponent } from './components/verbos/verbos.component';
@@ -21,7 +22,7 @@ import { VerbosComponent } from './components/verbos/verbos.component';
     VerbosComponent
   ],
   imports: [
-    BrowserModule, HttpModule, AppRoutingModule
+    BrowserModule, FormsModule, HttpModule, AppRoutingModule
   ],
   providers: [CommonService, GeneralService, PalavrasService, VerbosService],
   bootstrap: [AppComponent]

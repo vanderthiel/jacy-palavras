@@ -4,4 +4,6 @@ export class Verbo {
     voltooid:string;
     heden:Array<string>;
     verleden:Array<string>;
+
+    oplossing:string;
 }

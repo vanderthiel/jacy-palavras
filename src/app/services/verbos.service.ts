@@ -14,7 +14,7 @@ export class VerbosService {
 
   constructor(private http: Http) { }
 
-  get(): Observable<Collection<Verbo>> {
+  get(): Observable<Array<Collection<Verbo>>> {
     return this.http
       .get(this.url)
       .pipe(map((res:Response) => res.json()));

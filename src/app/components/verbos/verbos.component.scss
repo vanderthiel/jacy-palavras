@@ -1,0 +1,27 @@
+@import '../../../variables';
+
+.verbos{
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    background-color: $color-secondary-1-1;
+    color: $color-secondary-1-4;
+    border: 2px solid $color-secondary-1-0;
+
+    .groups{
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+
+        .group{
+            margin: 10px;
+            padding: 5px;
+            display: block;
+            float: left;
+            background-color: $color-secondary-1-1;
+            border: 1px solid $color-secondary-1-0;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}

@@ -3,4 +3,6 @@ export class Palavra {
     woord:string;
     meervoud:string;
     vrouwelijk:string;
+    
+    oplossing:string;
 }

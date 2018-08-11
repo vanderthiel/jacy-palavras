@@ -14,7 +14,7 @@ export class GeneralService {
 
   constructor(private http: Http) { }
 
-  get(): Observable<Collection<General>> {
+  get(): Observable<Array<Collection<General>>> {
     return this.http
       .get(this.url)
       .pipe(map((res:Response) => res.json()));

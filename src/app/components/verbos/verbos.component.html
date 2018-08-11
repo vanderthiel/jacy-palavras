@@ -1,3 +1,9 @@
-<p>
-  verbos works!
-</p>
+<div class="verbos">
+  <ul *ngIf="groups !== undefined" class="groups clearfix">
+    <li *ngFor="let verbos of groups" class="group" (click)="selectGroup(verbos)">{{ verbos.title }}</li>
+  </ul>
+
+  <div *ngIf="currentGroup !== undefined">
+      <h2>{{ currentGroup.title }}</h2>
+    </div>
+  </div>

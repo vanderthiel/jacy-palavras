@@ -1,3 +1,9 @@
-<p>
-  palavras works!
-</p>
+<div class="palavras">
+  <ul *ngIf="groups !== undefined" class="groups clearfix">
+    <li *ngFor="let palavras of groups" class="group" (click)="selectGroup(palavras)">{{ palavras.title }}</li>
+  </ul>
+
+  <div *ngIf="currentGroup !== undefined">
+      <h2>{{ currentGroup.title }}</h2>
+    </div>
+  </div>
