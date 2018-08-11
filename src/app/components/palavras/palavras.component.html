@@ -5,5 +5,30 @@
 
   <div *ngIf="currentGroup !== undefined">
       <h2>{{ currentGroup.title }}</h2>
+
+      <table>
+        <tr>
+          <th>Portugues</th>
+          <th>Holandes</th>
+          <th *ngIf="!hideSolution">Plural</th>
+          <th *ngIf="!hideSolution">Feminina</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
+            <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
+          </td>
+          <td *ngIf="!hideSolution"></td>
+          <td *ngIf="!hideSolution"></td>
+        </tr>
+        <tr *ngFor="let word of currentGroup.content">
+          <td>{{ word.palavra }}</td>
+          <td *ngIf="!hideSolution">{{ word.woord }}</td>
+          <td *ngIf="hideSolution"><input type="text" [(ngModel)]="word.oplossing" /></td>
+          <td *ngIf="!hideSolution">{{ word.meervoud }}</td>
+          <td *ngIf="!hideSolution">{{ word.vrouwelijk }}</td>
+        </tr>
+      </table>
     </div>
   </div>

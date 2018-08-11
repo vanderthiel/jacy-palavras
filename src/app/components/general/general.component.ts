@@ -23,6 +23,7 @@ export class GeneralComponent implements OnInit {
 
   selectGroup(group: Collection<General>){
     this.currentGroup = group;
+    this.hideSolution = false;
   }
 
   practice(){

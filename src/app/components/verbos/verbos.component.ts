@@ -1,7 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { _ } from 'underscore';
 import { VerbosService } from '../../services/verbos.service';
 import { Collection } from '../../dto/collection';
 import { Verbo } from '../../dto/verbo';
+import { VerbForm } from '../../dto/verb-form';
+import { CommonService } from '../../services/common.service';
+import { Common } from '../../dto/common';
 
 @Component({
   selector: 'app-verbos',
@@ -10,17 +14,41 @@ import { Verbo } from '../../dto/verbo';
 })
 export class VerbosComponent implements OnInit {
 
+  common: Common;
   groups: Array<Collection<Verbo>>;
   currentGroup: Collection<Verbo>;
+  currentVerb: Array<VerbForm>;
 
-  constructor(private verbosService: VerbosService) { }
+  hideSolution: boolean = false;
+
+  constructor(private verbosService: VerbosService, private commonService: CommonService) { }
 
   ngOnInit() {
     this.verbosService.get().subscribe(data => this.groups = data);
+    this.commonService.get().subscribe(data => this.common = data);
   }
 
   selectGroup(group: Collection<Verbo>){
     this.currentGroup = group;
+    this.hideSolution = false;
+    this.currentVerb = null;
+  }
+
+  practice(){
+    this.hideSolution = !this.hideSolution;
+  }
+
+  clear(){
+    this.currentGroup.content.forEach(el => {
+      el.werkwoordOplossing = null;
+      el.voltooidOplossing = null;
+    });
+  }
+
+  details(verb:Verbo){
+    this.currentVerb = _.zip(this.common.pronouns, verb.heden, verb.verleden).map(function(coll) { 
+      return _.object(["person","present","past"],coll);
+    });
   }
 
 }

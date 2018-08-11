@@ -5,5 +5,6 @@ export class Verbo {
     heden:Array<string>;
     verleden:Array<string>;
 
-    oplossing:string;
+    werkwoordOplossing:string;
+    voltooidOplossing:string;
 }

@@ -5,5 +5,49 @@
 
   <div *ngIf="currentGroup !== undefined">
       <h2>{{ currentGroup.title }}</h2>
+
+      <div class="clearfix">
+        <table>
+          <tr>
+            <th>Verbo Portugues</th>
+            <th>Verbo Holandes</th>
+            <th>Preterito perfeito</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
+              <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr *ngFor="let word of currentGroup.content">
+            <td>{{ word.verbo }}</td>
+            <td *ngIf="!hideSolution">{{ word.werkwoord }}</td>
+            <td *ngIf="hideSolution"><input type="text" [(ngModel)]="word.werkwoordOplossing" /></td>
+            <td *ngIf="!hideSolution">{{ word.voltooid }}</td>
+            <td *ngIf="hideSolution"><input type="text" [(ngModel)]="word.voltooidOplossing" /></td>
+            <td><button (click)="details(word)" *ngIf="word.heden">Detalhas</button></td>
+          </tr>
+        </table>
+
+        <table *ngIf="currentVerb">
+          <tr>
+            <th colspan="2">{{ currentVerb[currentVerb.length-1].present }}</th>
+          </tr>
+          <tr>
+            <th>Pronome pessoal</th>
+            <th>Presente</th>
+            <th>Passado</th>
+          </tr>
+          <tr *ngFor="let form of currentVerb">
+            <td>{{ form.person }}</td>
+            <td>{{ form.present }}</td>
+            <td>{{ form.past }}</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>

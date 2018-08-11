@@ -13,6 +13,8 @@ export class PalavrasComponent implements OnInit {
   groups: Array<Collection<Palavra>>;
   currentGroup: Collection<Palavra>;
 
+  hideSolution: boolean = false;
+
   constructor(private palavrasService: PalavrasService) { }
 
   ngOnInit() {
@@ -21,6 +23,15 @@ export class PalavrasComponent implements OnInit {
 
   selectGroup(group: Collection<Palavra>){
     this.currentGroup = group;
+    this.hideSolution = false;
+  }
+
+  practice(){
+    this.hideSolution = !this.hideSolution;
+  }
+
+  clear(){
+    this.currentGroup.content.forEach(el => el.oplossing = null);
   }
 
 }
