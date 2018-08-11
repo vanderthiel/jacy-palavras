@@ -1,0 +1,32 @@
+@import '../variables';
+
+.header{
+    text-align:center;
+    background-color: $color-primary-0;
+
+    h1{
+        padding: 20px;
+        margin: 0;
+    }
+}
+
+nav{
+    display: block;
+    background-color: $color-primary-3;
+    height: 30px;
+    width: 100%;
+
+    a{
+        background-color: white;
+        display: block;
+        float: left;
+        margin: 0 5px;
+        padding: 5px 10px;
+        color: $color-complement-4;
+        height: 20px;
+        border-radius: 10px 10px 0 0;
+
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
