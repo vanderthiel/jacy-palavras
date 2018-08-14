@@ -42,7 +42,17 @@ export class VerbosComponent implements OnInit {
     this.currentGroup.content.forEach(el => {
       el.werkwoordOplossing = null;
       el.voltooidOplossing = null;
+      el.isGoedVoltooid = false;
+      el.isGoedWerkwoord = false;
     });
+  }
+
+  evaluateWerkwoord(word:Verbo){
+    word.isGoedWerkwoord = word.werkwoordOplossing !== null && word.werkwoordOplossing !== undefined && word.werkwoord.toLowerCase() === word.werkwoordOplossing.toLowerCase();
+  }
+
+  evaluateVoltooid(word:Verbo){
+    word.isGoedVoltooid = word.voltooidOplossing !== null && word.voltooidOplossing !== undefined && word.voltooid.toLowerCase() === word.voltooidOplossing.toLowerCase();
   }
 
   details(verb:Verbo){

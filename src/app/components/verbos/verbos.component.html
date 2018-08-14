@@ -25,10 +25,10 @@
           </tr>
           <tr *ngFor="let word of currentGroup.content">
             <td>{{ word.verbo }}</td>
-            <td *ngIf="!hideSolution">{{ word.werkwoord }}</td>
-            <td *ngIf="hideSolution"><input type="text" [(ngModel)]="word.werkwoordOplossing" /></td>
-            <td *ngIf="!hideSolution">{{ word.voltooid }}</td>
-            <td *ngIf="hideSolution"><input type="text" [(ngModel)]="word.voltooidOplossing" /></td>
+            <td *ngIf="!hideSolution || word.isGoedWerkwoord">{{ word.werkwoord }}</td>
+            <td *ngIf="hideSolution && !word.isGoedWerkwoord"><input type="text" (change)="evaluateWerkwoord(word)" [(ngModel)]="word.werkwoordOplossing" /></td>
+            <td *ngIf="!hideSolution || word.isGoedVoltooid">{{ word.voltooid }}</td>
+            <td *ngIf="hideSolution && !word.isGoedVoltooid"><input type="text" (change)="evaluateVoltooid(word)" [(ngModel)]="word.voltooidOplossing" /></td>
             <td><button (click)="details(word)" *ngIf="word.heden">Detalhas</button></td>
           </tr>
         </table>

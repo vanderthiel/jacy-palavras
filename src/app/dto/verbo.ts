@@ -7,4 +7,6 @@ export class Verbo {
 
     werkwoordOplossing:string;
     voltooidOplossing:string;
+    isGoedWerkwoord:boolean;
+    isGoedVoltooid:boolean;
 }

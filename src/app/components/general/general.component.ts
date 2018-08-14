@@ -32,6 +32,11 @@ export class GeneralComponent implements OnInit {
 
   clear(){
     this.currentGroup.content.forEach(el => el.oplossing = null);
+    this.currentGroup.content.forEach(el => el.isGoed = false);
+  }
+
+  evaluate(word:General){
+    word.isGoed = word.oplossing !== null && word.oplossing !== undefined && word.woord.toLowerCase() === word.oplossing.toLowerCase();
   }
 
 }

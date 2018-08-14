@@ -32,6 +32,11 @@ export class PalavrasComponent implements OnInit {
 
   clear(){
     this.currentGroup.content.forEach(el => el.oplossing = null);
+    this.currentGroup.content.forEach(el => el.isGoed = false);
+  }
+
+  evaluate(word:Palavra){
+    word.isGoed = word.oplossing !== null && word.oplossing !== undefined && word.woord.toLowerCase() === word.oplossing.toLowerCase();
   }
 
 }

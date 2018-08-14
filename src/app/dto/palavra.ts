@@ -5,4 +5,5 @@ export class Palavra {
     vrouwelijk:string;
     
     oplossing:string;
+    isGoed:boolean;
 }

@@ -24,10 +24,10 @@
         </tr>
         <tr *ngFor="let word of currentGroup.content">
           <td>{{ word.palavra }}</td>
-          <td *ngIf="!hideSolution">{{ word.woord }}</td>
-          <td *ngIf="hideSolution"><input type="text" [(ngModel)]="word.oplossing" /></td>
-          <td *ngIf="!hideSolution">{{ word.meervoud }}</td>
-          <td *ngIf="!hideSolution">{{ word.vrouwelijk }}</td>
+          <td *ngIf="!hideSolution || word.isGoed">{{ word.woord }}</td>
+          <td *ngIf="hideSolution && !word.isGoed"><input type="text" (change)="evaluate(word)" [(ngModel)]="word.oplossing" /></td>
+          <td *ngIf="!hideSolution || word.isGoed">{{ word.meervoud }}</td>
+          <td *ngIf="!hideSolution || word.isGoed">{{ word.vrouwelijk }}</td>
         </tr>
       </table>
     </div>

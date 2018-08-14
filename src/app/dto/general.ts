@@ -4,4 +4,5 @@ export class General {
     uitleg:string;
     
     oplossing:string;
+    isGoed:boolean;
 }
