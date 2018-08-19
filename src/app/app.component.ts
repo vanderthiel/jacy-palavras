@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonService } from './services/common.service';
+import { GeneralService } from './services/general.service';
+import { PalavrasService } from './services/palavras.service';
+import { VerbosService } from './services/verbos.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +11,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent {
   title = 'Vamos praticar';
+
+  constructor(private commonService: CommonService, private generalService: GeneralService, private palavrasService: PalavrasService, private verbosService: VerbosService){}
+
+  ngOnInit() {
+    // Load all data when opening application
+    this.commonService.get();
+    this.verbosService.get();
+    this.generalService.get();
+    this.palavrasService.get();
+  }
+
 }

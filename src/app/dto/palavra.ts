@@ -3,6 +3,7 @@ export class Palavra {
     woord:string;
     meervoud:string;
     vrouwelijk:string;
+    uitleg:string;
     
     oplossing:string;
     isGoed:boolean;

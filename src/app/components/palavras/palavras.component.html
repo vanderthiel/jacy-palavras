@@ -10,24 +10,25 @@
         <tr>
           <th>Portugues</th>
           <th>Holandes</th>
-          <th *ngIf="!hideSolution">Plural</th>
-          <th *ngIf="!hideSolution">Feminina</th>
+          <th>Plural</th>
+          <th>Feminina</th>
+          <th>Explicação</th>
         </tr>
         <tr>
-          <td></td>
-          <td>
+          <td colspan="5">
             <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
             <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
           </td>
-          <td *ngIf="!hideSolution"></td>
-          <td *ngIf="!hideSolution"></td>
         </tr>
         <tr *ngFor="let word of currentGroup.content">
           <td>{{ word.palavra }}</td>
           <td *ngIf="!hideSolution || word.isGoed">{{ word.woord }}</td>
           <td *ngIf="hideSolution && !word.isGoed"><input type="text" (change)="evaluate(word)" [(ngModel)]="word.oplossing" /></td>
           <td *ngIf="!hideSolution || word.isGoed">{{ word.meervoud }}</td>
+          <td *ngIf="hideSolution && !word.isGoed"></td>
           <td *ngIf="!hideSolution || word.isGoed">{{ word.vrouwelijk }}</td>
+          <td *ngIf="hideSolution && !word.isGoed"></td>
+          <td>{{ word.uitleg }}</td>
         </tr>
       </table>
     </div>

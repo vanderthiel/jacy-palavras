@@ -41,14 +41,20 @@ export class VerbosComponent implements OnInit {
   clear(){
     this.currentGroup.content.forEach(el => {
       el.werkwoordOplossing = null;
+      el.stamOplossing = null;
       el.voltooidOplossing = null;
-      el.isGoedVoltooid = false;
       el.isGoedWerkwoord = false;
+      el.isGoedStam = false;
+      el.isGoedVoltooid = false;
     });
   }
 
   evaluateWerkwoord(word:Verbo){
     word.isGoedWerkwoord = word.werkwoordOplossing !== null && word.werkwoordOplossing !== undefined && word.werkwoord.toLowerCase() === word.werkwoordOplossing.toLowerCase();
+  }
+
+  evaluateStam(word:Verbo){
+    word.isGoedStam = word.stamOplossing !== null && word.stamOplossing !== undefined && word.stam.toLowerCase() === word.stamOplossing.toLowerCase();
   }
 
   evaluateVoltooid(word:Verbo){

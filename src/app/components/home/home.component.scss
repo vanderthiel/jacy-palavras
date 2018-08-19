@@ -1,0 +1,23 @@
+@import '../../../variables';
+
+.home{
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    background-color: $color-secondary-1-1;
+    color: $color-secondary-1-4;
+    border: 2px solid $color-secondary-1-0;
+
+    table{
+        border-collapse: collapse;
+
+        tr:nth-child(even){
+            background-color: $color-secondary-1-2;
+        }
+
+        th,td{
+            padding: 10px;
+            border-left: 1px solid $color-secondary-1-4;
+        }
+    }
+}

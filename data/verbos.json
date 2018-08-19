@@ -1,136 +1,136 @@
 [{
 	"title":"Verbos Irregulares",
 	"content": [
-		{"verbo":"ser, estar","werkwoord":"zijn","voltooid":"geweest","heden":["ben","bent","is","is","bent","zijn","zijn"],"verleden":["was","was","was","was","was","waren","waren"]},
-		{"verbo":"ter","werkwoord":"hebben","voltooid":"gehad","heden":["heb","hebt","heeft","heeft","hebt","hebben","hebben"]},
-		{"verbo":"poder","werkwoord":"mogen","voltooid":"gemogen","heden":["mag","mag","mag","mag","mag","mogen","mogen"]},
-		{"verbo":"poder","werkwoord":"kunnen","voltooid":"gekund","heden":["kan","kunt","kan","kan","kunt","kunnen","kunnen"]},
-		{"verbo":"querer","werkwoord":"willen","voltooid":"gewild","heden":["wil","wilt","wil","wil","wilt","willen","willen"]}
+		{"verbo":"ser, estar","stam":"","werkwoord":"zijn","voltooid":"geweest","heden":["ben","bent","is","is","bent","zijn","zijn"],"verleden":["was","was","was","was","was","waren","waren"]},
+		{"verbo":"ter","stam":"","werkwoord":"hebben","voltooid":"gehad","heden":["heb","hebt","heeft","heeft","hebt","hebben","hebben"]},
+		{"verbo":"poder","stam":"","werkwoord":"mogen","voltooid":"gemogen","heden":["mag","mag","mag","mag","mag","mogen","mogen"]},
+		{"verbo":"poder","stam":"","werkwoord":"kunnen","voltooid":"gekund","heden":["kan","kunt","kan","kan","kunt","kunnen","kunnen"]},
+		{"verbo":"querer","stam":"","werkwoord":"willen","voltooid":"gewild","heden":["wil","wilt","wil","wil","wilt","willen","willen"]}
 	]
 },{
 	"title":"General",
 	"content":[
-		{"verbo":"ir","werkwoord":"gaan","voltooid":"gegaan"},
-		{"verbo":"vir","werkwoord":"komen","voltooid":"gekomen"},
-		{"verbo":"tornar","werkwoord":"worden","voltooid":"geworden"},
-		{"verbo":"encontrar","werkwoord":"vinden","voltooid":"gevonden"},
-		{"verbo":"comecar","werkwoord":"beginnen","voltooid":"begonnen"},
-		{"verbo":"parar","werkwoord":"stoppen","voltooid":"gestopt"},
-		{"verbo":"fazer","werkwoord":"doen","voltooid":"gedaan"},
-		{"verbo":"manter","werkwoord":"houden","voltooid":"gehouden"},
-		{"verbo":"precisar","werkwoord":"moeten","voltooid":"gemoeten"},
-		{"verbo":"ficar","werkwoord":"blijven","voltooid":"gebleven"},
-		{"verbo":"fazer","werkwoord":"maken","voltooid":"gemaakt"},
-		{"verbo":"trazer","werkwoord":"brengen","voltooid":"gebracht"},
-		{"verbo":"receber","werkwoord":"krijgen","voltooid":"gekregen"}
-	]
-},{
-	"title":"Esportes",
-	"content":[
-		{"verbo":"andar","werkwoord":"lopen","voltooid":"gelopen"},
-		{"verbo":"andar","werkwoord":"wandelen","voltooid":"gewandeld"},
-		{"verbo":"esporter","werkwoord":"sporten","voltooid":"gesport"},
-		{"verbo":"nadar","werkwoord":"zwemmen","voltooid":"gezwommen"},
-		{"verbo":"cantar","werkwoord":"zingen","voltooid":"gezongen"},
-		{"verbo":"jogar","werkwoord":"spelen","voltooid":"gespeeld"},
-		{"verbo":"dancar","werkwoord":"dansen","voltooid":"gedanst"},
-		{"verbo":"ciclismor","werkwoord":"fietsen","voltooid":"gefietst"},
-		{"verbo":"navegar","werkwoord":"varen","voltooid":"gevaren"},
-		{"verbo":"pintar","werkwoord":"schilderen","voltooid":"geschilderd"}
-	]
-},{
-	"title":"Saúde",
-	"content":[
-		{"verbo":"escutar","werkwoord":"luisteren","voltooid":"geluisterd"},
-		{"verbo":"olhar","werkwoord":"kijken","voltooid":"gekeken"},
-		{"verbo":"nascer","werkwoord":"baren","voltooid":"geboren"},
-		{"verbo":"ouvir","werkwoord":"horen","voltooid":"gehoord"},
-		{"verbo":"sentir","werkwoord":"voelen","voltooid":"gevoeld"},
-		{"verbo":"ver","werkwoord":"zien","voltooid":"gezien"},
-		{"verbo":"fumar","werkwoord":"roken","voltooid":"gerookt"}
+		{"verbo":"ir","stam":"","werkwoord":"gaan","voltooid":"gegaan"},
+		{"verbo":"vir","stam":"","werkwoord":"komen","voltooid":"gekomen"},
+		{"verbo":"tornar","stam":"","werkwoord":"worden","voltooid":"geworden"},
+		{"verbo":"encontrar","stam":"","werkwoord":"vinden","voltooid":"gevonden"},
+		{"verbo":"comecar","stam":"","werkwoord":"beginnen","voltooid":"begonnen"},
+		{"verbo":"parar","stam":"","werkwoord":"stoppen","voltooid":"gestopt"},
+		{"verbo":"fazer","stam":"","werkwoord":"doen","voltooid":"gedaan"},
+		{"verbo":"manter","stam":"","werkwoord":"houden","voltooid":"gehouden"},
+		{"verbo":"precisar","stam":"","werkwoord":"moeten","voltooid":"gemoeten"},
+		{"verbo":"ficar","stam":"","werkwoord":"blijven","voltooid":"gebleven"},
+		{"verbo":"fazer","stam":"","werkwoord":"maken","voltooid":"gemaakt"},
+		{"verbo":"trazer","stam":"","werkwoord":"brengen","voltooid":"gebracht"},
+		{"verbo":"receber","stam":"","werkwoord":"krijgen","voltooid":"gekregen"}
 	]
 },{
 	"title":"Cozinha",
 	"content":[
-		{"verbo":"gostar","werkwoord":"lusten","voltooid":"gelust"},
-		{"verbo":"beber","werkwoord":"drinken","voltooid":"gedronken"},
-		{"verbo":"comer","werkwoord":"eten","voltooid":"gegeten"},
-		{"verbo":"cozinhar","werkwoord":"koken","voltooid":"gekookt"},
-		{"verbo":"assar","werkwoord":"bakken","voltooid":"gebakken"},
-		{"verbo":"cortir","werkwoord":"snijden","voltooid":"gesneden"}
-	]
-},{
-	"title":"Communicar",
-	"content":[
-		{"verbo":"falar","werkwoord":"spreken","voltooid":"gesproken"},
-		{"verbo":"falar","werkwoord":"praten","voltooid":"gepraat"},
-		{"verbo":"perguntar","werkwoord":"vragen","voltooid":"gevraagd"},
-		{"verbo":"chamar","werkwoord":"roepen","voltooid":"geroepen"},
-		{"verbo":"chamar/telefonar","werkwoord":"bellen","voltooid":"gebeld"},
-		{"verbo":"escrever","werkwoord":"schrijven","voltooid":"geschreven"},
-		{"verbo":"ler","werkwoord":"lezen","voltooid":"gelezen"},
-		{"verbo":"dizer","werkwoord":"vertellen","voltooid":"verteld"}
-	]
-},{
-	"title":"Em casa",
-	"content":[
-		{"verbo":"carregar","werkwoord":"dragen","voltooid":"gedragen"},
-		{"verbo":"ajudar","werkwoord":"helpen","voltooid":"geholpen"},
-		{"verbo":"por","werkwoord":"leggen","voltooid":"gelegd"},
-		{"verbo":"usar","werkwoord":"gebruiken","voltooid":"gebruikt"},
-		{"verbo":"quebrar","werkwoord":"breken","voltooid":"gebroken"},
-		{"verbo":"quebrar em","werkwoord":"inbreken","voltooid":"ingebroken"},
-		{"verbo":"morar","werkwoord":"wonen","voltooid":"gewoond"},
-		{"verbo":"trabalhar","werkwoord":"werken","voltooid":"gewerkt"},
-		{"verbo":"dormir","werkwoord":"slapen","voltooid":"geslapen"},
-		{"verbo":"vender","werkwoord":"verkopen","voltooid":"verkocht"},
-		{"verbo":"sentar","werkwoord":"zitten","voltooid":"gezeten"},
-		{"verbo":"ficar","werkwoord":"staan","voltooid":"gestaan"},
-		{"verbo":"levantar","werkwoord":"opstaan","voltooid":"opgestaan"},
-		{"verbo":"lavar","werkwoord":"wassen","voltooid":"gewassen"},
-		{"verbo":"mover","werkwoord":"verhuizen","voltooid":"verhuisd"},
-		{"verbo":"deixar","werkwoord":"vertrekken","voltooid":"vertrokken"},
-		{"verbo":"comprar","werkwoord":"kopen","voltooid":"gekocht"},
-		{"verbo":"limpar","werkwoord":"opruimen","voltooid":"opgeruimd"},
-		{"verbo":"limpar","werkwoord":"schoonmaken","voltooid":"schoongemaakt"},
-		{"verbo":"celebrar","werkwoord":"vieren","voltooid":"gevierd"}
-	]
-},{
-	"title":"Actividades",
-	"content":[
-		{"verbo":"pegar","werkwoord":"pakken","voltooid":"gepakt"},
-		{"verbo":"enviar","werkwoord":"sturen","voltooid":"gestuurd"},
-		{"verbo":"esperar","werkwoord":"wachten","voltooid":"gewacht"},
-		{"verbo":"passar","werkwoord":"slagen","voltooid":"geslaagd"},
-		{"verbo":"passar","werkwoord":"stappen","voltooid":"gestapt"},
-		{"verbo":"passar","werkwoord":"passen","voltooid":"gepast"},
-		{"verbo":"dar","werkwoord":"geven","voltooid":"gegeven"},
-		{"verbo":"tomar","werkwoord":"nemen","voltooid":"genomen"},
-		{"verbo":"escolher","werkwoord":"kiezen","voltooid":"gekozen"},
-		{"verbo":"buscar","werkwoord":"zoeken","voltooid":"gezocht"},
-		{"verbo":"expirar","werkwoord":"aflopen","voltooid":"gelopen"},
-		{"verbo":"picar","werkwoord":"prikken","voltooid":"geprikt"},
-		{"verbo":"obter","werkwoord":"halen","voltooid":"gehaald"},
-		{"verbo":"obter","werkwoord":"ophalen","voltooid":"opgehaald"},
-		{"verbo":"cair","werkwoord":"vallen","voltooid":"gevallen"},
-		{"verbo":"emprester","werkwoord":"lenen","voltooid":"geleend"},
-		{"verbo":"configurar","werkwoord":"instellen","voltooid":"ingesteld"},
-		{"verbo":"imaginar","werkwoord":"voorstellen","voltooid":"voorgesteld"},
-		{"verbo":"freiar","werkwoord":"remmen","voltooid":"geremd"}
+		{"verbo":"gostar","stam":"","werkwoord":"lusten","voltooid":"gelust"},
+		{"verbo":"beber","stam":"","werkwoord":"drinken","voltooid":"gedronken"},
+		{"verbo":"comer","stam":"","werkwoord":"eten","voltooid":"gegeten"},
+		{"verbo":"cozinhar","stam":"","werkwoord":"koken","voltooid":"gekookt"},
+		{"verbo":"assar","stam":"","werkwoord":"bakken","voltooid":"gebakken"},
+		{"verbo":"cortir","stam":"","werkwoord":"snijden","voltooid":"gesneden"}
 	]
 },{
 	"title":"Vida",
 	"content":[
-		{"verbo":"aprender","werkwoord":"leren","voltooid":"geleerd"},
-		{"verbo":"viajar","werkwoord":"reizen","voltooid":"gereisd"},
-		{"verbo":"estudar","werkwoord":"studeren","voltooid":"gestudeerd"},
-		{"verbo":"diriger","werkwoord":"rijden","voltooid":"gereden"},
-		{"verbo":"seguir","werkwoord":"volgen","voltooid":"gevolgd"},
-		{"verbo":"chover","werkwoord":"regenen","voltooid":"geregend"},
-		{"verbo":"desenhar","werkwoord":"tekenen","voltooid":"getekend"},
-		{"verbo":"construir","werkwoord":"bouwen","voltooid":"gebouwd"},
-		{"verbo":"praticar","werkwoord":"oefenen","voltooid":"geoefend"},
-		{"verbo":"aplicar","werkwoord":"solliciteren","voltooid":"gesolliciteerd"},
-		{"verbo":"deitar","werkwoord":"liggen","voltooid":"gelegen"}
+		{"verbo":"aprender","stam":"","werkwoord":"leren","voltooid":"geleerd"},
+		{"verbo":"viajar","stam":"","werkwoord":"reizen","voltooid":"gereisd"},
+		{"verbo":"estudar","stam":"","werkwoord":"studeren","voltooid":"gestudeerd"},
+		{"verbo":"diriger","stam":"","werkwoord":"rijden","voltooid":"gereden"},
+		{"verbo":"seguir","stam":"","werkwoord":"volgen","voltooid":"gevolgd"},
+		{"verbo":"chover","stam":"","werkwoord":"regenen","voltooid":"geregend"},
+		{"verbo":"desenhar","stam":"","werkwoord":"tekenen","voltooid":"getekend"},
+		{"verbo":"construir","stam":"","werkwoord":"bouwen","voltooid":"gebouwd"},
+		{"verbo":"praticar","stam":"","werkwoord":"oefenen","voltooid":"geoefend"},
+		{"verbo":"aplicar","stam":"","werkwoord":"solliciteren","voltooid":"gesolliciteerd"},
+		{"verbo":"deitar","stam":"","werkwoord":"liggen","voltooid":"gelegen"}
+	]
+},{
+	"title":"Em casa",
+	"content":[
+		{"verbo":"carregar","stam":"","werkwoord":"dragen","voltooid":"gedragen"},
+		{"verbo":"ajudar","stam":"","werkwoord":"helpen","voltooid":"geholpen"},
+		{"verbo":"por","stam":"","werkwoord":"leggen","voltooid":"gelegd"},
+		{"verbo":"usar","stam":"","werkwoord":"gebruiken","voltooid":"gebruikt"},
+		{"verbo":"quebrar","stam":"","werkwoord":"breken","voltooid":"gebroken"},
+		{"verbo":"quebrar em","stam":"","werkwoord":"inbreken","voltooid":"ingebroken"},
+		{"verbo":"morar","stam":"","werkwoord":"wonen","voltooid":"gewoond"},
+		{"verbo":"trabalhar","stam":"","werkwoord":"werken","voltooid":"gewerkt"},
+		{"verbo":"dormir","stam":"","werkwoord":"slapen","voltooid":"geslapen"},
+		{"verbo":"vender","stam":"","werkwoord":"verkopen","voltooid":"verkocht"},
+		{"verbo":"sentar","stam":"","werkwoord":"zitten","voltooid":"gezeten"},
+		{"verbo":"ficar","stam":"","werkwoord":"staan","voltooid":"gestaan"},
+		{"verbo":"levantar","stam":"","werkwoord":"opstaan","voltooid":"opgestaan"},
+		{"verbo":"lavar","stam":"","werkwoord":"wassen","voltooid":"gewassen"},
+		{"verbo":"mover","stam":"","werkwoord":"verhuizen","voltooid":"verhuisd"},
+		{"verbo":"deixar","stam":"","werkwoord":"vertrekken","voltooid":"vertrokken"},
+		{"verbo":"comprar","stam":"","werkwoord":"kopen","voltooid":"gekocht"},
+		{"verbo":"limpar","stam":"","werkwoord":"opruimen","voltooid":"opgeruimd"},
+		{"verbo":"limpar","stam":"","werkwoord":"schoonmaken","voltooid":"schoongemaakt"},
+		{"verbo":"celebrar","stam":"","werkwoord":"vieren","voltooid":"gevierd"}
+	]
+},{
+	"title":"Communicar",
+	"content":[
+		{"verbo":"falar","stam":"","werkwoord":"spreken","voltooid":"gesproken"},
+		{"verbo":"falar","stam":"","werkwoord":"praten","voltooid":"gepraat"},
+		{"verbo":"perguntar","stam":"","werkwoord":"vragen","voltooid":"gevraagd"},
+		{"verbo":"chamar","stam":"","werkwoord":"roepen","voltooid":"geroepen"},
+		{"verbo":"chamar/telefonar","stam":"","werkwoord":"bellen","voltooid":"gebeld"},
+		{"verbo":"escrever","stam":"","werkwoord":"schrijven","voltooid":"geschreven"},
+		{"verbo":"ler","stam":"","werkwoord":"lezen","voltooid":"gelezen"},
+		{"verbo":"dizer","stam":"","werkwoord":"vertellen","voltooid":"verteld"}
+	]
+},{
+	"title":"Saúde",
+	"content":[
+		{"verbo":"escutar","stam":"","werkwoord":"luisteren","voltooid":"geluisterd"},
+		{"verbo":"olhar","stam":"","werkwoord":"kijken","voltooid":"gekeken"},
+		{"verbo":"nascer","stam":"","werkwoord":"baren","voltooid":"geboren"},
+		{"verbo":"ouvir","stam":"","werkwoord":"horen","voltooid":"gehoord"},
+		{"verbo":"sentir","stam":"","werkwoord":"voelen","voltooid":"gevoeld"},
+		{"verbo":"ver","stam":"","werkwoord":"zien","voltooid":"gezien"},
+		{"verbo":"fumar","stam":"","werkwoord":"roken","voltooid":"gerookt"}
+	]
+},{
+	"title":"Esportes",
+	"content":[
+		{"verbo":"andar","stam":"","werkwoord":"lopen","voltooid":"gelopen"},
+		{"verbo":"andar","stam":"","werkwoord":"wandelen","voltooid":"gewandeld"},
+		{"verbo":"esporter","stam":"","werkwoord":"sporten","voltooid":"gesport"},
+		{"verbo":"nadar","stam":"","werkwoord":"zwemmen","voltooid":"gezwommen"},
+		{"verbo":"cantar","stam":"","werkwoord":"zingen","voltooid":"gezongen"},
+		{"verbo":"jogar","stam":"","werkwoord":"spelen","voltooid":"gespeeld"},
+		{"verbo":"dancar","stam":"","werkwoord":"dansen","voltooid":"gedanst"},
+		{"verbo":"ciclismor","stam":"","werkwoord":"fietsen","voltooid":"gefietst"},
+		{"verbo":"navegar","stam":"","werkwoord":"varen","voltooid":"gevaren"},
+		{"verbo":"pintar","stam":"","werkwoord":"schilderen","voltooid":"geschilderd"}
+	]
+},{
+	"title":"Actividades",
+	"content":[
+		{"verbo":"pegar","stam":"","werkwoord":"pakken","voltooid":"gepakt"},
+		{"verbo":"enviar","stam":"","werkwoord":"sturen","voltooid":"gestuurd"},
+		{"verbo":"esperar","stam":"","werkwoord":"wachten","voltooid":"gewacht"},
+		{"verbo":"passar","stam":"","werkwoord":"slagen","voltooid":"geslaagd"},
+		{"verbo":"passar","stam":"","werkwoord":"stappen","voltooid":"gestapt"},
+		{"verbo":"passar","stam":"","werkwoord":"passen","voltooid":"gepast"},
+		{"verbo":"dar","stam":"","werkwoord":"geven","voltooid":"gegeven"},
+		{"verbo":"tomar","stam":"","werkwoord":"nemen","voltooid":"genomen"},
+		{"verbo":"escolher","stam":"","werkwoord":"kiezen","voltooid":"gekozen"},
+		{"verbo":"buscar","stam":"","werkwoord":"zoeken","voltooid":"gezocht"},
+		{"verbo":"expirar","stam":"","werkwoord":"aflopen","voltooid":"gelopen"},
+		{"verbo":"picar","stam":"","werkwoord":"prikken","voltooid":"geprikt"},
+		{"verbo":"obter","stam":"","werkwoord":"halen","voltooid":"gehaald"},
+		{"verbo":"obter","stam":"","werkwoord":"ophalen","voltooid":"opgehaald"},
+		{"verbo":"cair","stam":"","werkwoord":"vallen","voltooid":"gevallen"},
+		{"verbo":"emprester","stam":"","werkwoord":"lenen","voltooid":"geleend"},
+		{"verbo":"configurar","stam":"","werkwoord":"instellen","voltooid":"ingesteld"},
+		{"verbo":"imaginar","stam":"","werkwoord":"voorstellen","voltooid":"voorgesteld"},
+		{"verbo":"freiar","stam":"","werkwoord":"remmen","voltooid":"geremd"}
 	]
 }]

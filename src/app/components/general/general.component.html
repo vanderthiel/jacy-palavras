@@ -10,15 +10,13 @@
       <tr>
         <th>Portugues</th>
         <th>Holandes</th>
-        <th>Explicacao</th>
+        <th>Explicação</th>
       </tr>
       <tr>
-        <td></td>
-        <td>
+        <td colspan="3">
           <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
           <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
         </td>
-        <td></td>
       </tr>
       <tr *ngFor="let word of currentGroup.content">
         <td>{{ word.palavra }}</td>

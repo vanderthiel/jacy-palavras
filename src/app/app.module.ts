@@ -13,13 +13,15 @@ import { FormsModule } from '@angular/forms';
 import { GeneralComponent } from './components/general/general.component';
 import { PalavrasComponent } from './components/palavras/palavras.component';
 import { VerbosComponent } from './components/verbos/verbos.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GeneralComponent,
     PalavrasComponent,
-    VerbosComponent
+    VerbosComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpModule, AppRoutingModule

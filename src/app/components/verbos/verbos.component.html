@@ -11,31 +11,33 @@
           <tr>
             <th>Verbo Portugues</th>
             <th>Verbo Holandes</th>
+            <th>Stam</th>
             <th>Preterito perfeito</th>
+            <th>Explicação</th>
             <th></th>
           </tr>
           <tr>
-            <td></td>
-            <td>
+            <td colspan="6">
               <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
               <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
             </td>
-            <td></td>
-            <td></td>
           </tr>
           <tr *ngFor="let word of currentGroup.content">
             <td>{{ word.verbo }}</td>
             <td *ngIf="!hideSolution || word.isGoedWerkwoord">{{ word.werkwoord }}</td>
             <td *ngIf="hideSolution && !word.isGoedWerkwoord"><input type="text" (change)="evaluateWerkwoord(word)" [(ngModel)]="word.werkwoordOplossing" /></td>
+            <td *ngIf="!hideSolution || word.isGoedStam">{{ word.stam }}</td>
+            <td *ngIf="hideSolution && !word.isGoedStam"><input type="text" (change)="evaluateStam(word)" [(ngModel)]="word.stamOplossing" /></td>
             <td *ngIf="!hideSolution || word.isGoedVoltooid">{{ word.voltooid }}</td>
             <td *ngIf="hideSolution && !word.isGoedVoltooid"><input type="text" (change)="evaluateVoltooid(word)" [(ngModel)]="word.voltooidOplossing" /></td>
+            <td>{{ word.uitleg }}</td>
             <td><button (click)="details(word)" *ngIf="word.heden">Detalhas</button></td>
           </tr>
         </table>
 
         <table *ngIf="currentVerb">
           <tr>
-            <th colspan="2">{{ currentVerb[currentVerb.length-1].present }}</th>
+            <th colspan="3">{{ currentVerb[currentVerb.length-1].present }}</th>
           </tr>
           <tr>
             <th>Pronome pessoal</th>
