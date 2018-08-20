@@ -46,8 +46,10 @@
           </tr>
           <tr *ngFor="let form of currentVerb">
             <td>{{ form.person }}</td>
-            <td>{{ form.present }}</td>
-            <td>{{ form.past }}</td>
+            <td *ngIf="!form.present || !hideSolution || form.present === form.presentOplossing">{{ form.present }}</td>
+            <td *ngIf="form.present && hideSolution && form.present !== form.presentOplossing"><input type="text" [(ngModel)]="form.presentOplossing" /></td>
+            <td *ngIf="!form.past || !hideSolution || form.present === form.pastOplossing">{{ form.past }}</td>
+            <td *ngIf="form.past && hideSolution && form.present !== form.presentOplossing"><input type="text" [(ngModel)]="form.presentOplossing" /></td>
           </tr>
         </table>
       </div>
