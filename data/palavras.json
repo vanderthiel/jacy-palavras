@@ -3,13 +3,13 @@
 	"content":[
 		{"palavra":"Pais","woord":"het land","meervoud":"de landen"},
 		{"palavra":"Holanda","woord":"Nederland"},
-		{"palavra":"Holandes","woord":"Nederlands, Nederlandse"}
+		{"palavra":"Holandes","woord":"Nederlands", "uitleg":"também 'Nederlandse'"}
 	]
 },{
 	"title":"Familia e gentes",
 	"content":[
 		{"palavra":"familia","woord":"de familie","meervoud":"de families"},
-		{"palavra":"irmao","woord":"de broer","meervoud":"de broers"},
+		{"palavra":"irmão","woord":"de broer","meervoud":"de broers","uitleg":"lembre que no portugues o plural está usando pra combinacão de irmãos e irmas. No holandês só irmãos"},
 		{"palavra":"irma","woord":"de zus","meervoud":"de zussen"},
 		{"palavra":"pais","woord":"de ouder","meervoud":"de ouders"},
 		{"palavra":"pai","woord":"de vader","meervoud":"de vaders"},
@@ -23,8 +23,8 @@
 		{"palavra":"filha","woord":"de dochter","meervoud":"de dochters"},
 		{"palavra":"neto","woord":"de kleinzoon","meervoud":"de kleinzonen"},
 		{"palavra":"homem","woord":"de man","meervoud":"de mannen"},
-		{"palavra":"mulher","woord":"de vrouw, de mevrouw","meervoud":"de vrouwen"},
-		{"palavra":"vizinhos","woord":"de buur","meervoud":"de buren"},
+		{"palavra":"mulher","woord":"de vrouw","meervoud":"de vrouwen","uitleg":"também 'de mevrouw'"},
+		{"palavra":"vizinho","woord":"de buur","meervoud":"de buren","uitleg":"Quando você fala sobra vizinhos em general, masculino e feminina"},
 		{"palavra":"vizinho","woord":"de buurman","meervoud":"de buurmannen"},
 		{"palavra":"vizinha","woord":"de buurvrouw","meervoud":"de buurvrouwen"},
 
@@ -82,7 +82,6 @@
 		{"palavra":"xicara","woord":"het kopje","meervoud":"de kopjes"},
 		{"palavra":"copo","woord":"het glas","meervoud":"de glazen"},
 		{"palavra":"prato","woord":"het bord","meervoud":"de borden"},
-		{"palavra":"mesa","woord":"de tafel","meervoud":"de tafels"},
 		{"palavra":"colher","woord":"de lepel","meervoud":"de lepels"},
 		{"palavra":"café de manha","woord":"het ontbijt"}
 	]
@@ -97,18 +96,18 @@
 		{"palavra":"peixe","woord":"de vis","meervoud":"de vissen"}
 	]
 },{
-	"title":"Profissoes",
+	"title":"Profissões",
 	"content":[
 		{"palavra":"empresa","woord":"de baan","meervoud":"de banen"},
 		{"palavra":"profissao","woord":"het beroep","meervoud":"de beroepen"},
 		{"palavra":"colega","woord":"de collega","meervoud":"de collega's"},
 		{"palavra":"dentista","woord":"de tandarts","meervoud":"de tandartsen"},
-		{"palavra":"doutor","woord":"de dokter","meervoud":"de dokters"},
+		{"palavra":"doutor","woord":"de dokter","meervoud":"de dokters","uitleg":"geralmente no hospital"},
 		{"palavra":"GP (doutor)","woord":"de huisarts","meervoud":"de huisartsen"},
 		{"palavra":"pintor","woord":"de schilder","meervoud":"de schilders"},
 		{"palavra":"padaria","woord":"de bakker","meervoud":"de bakkers"},
-		{"palavra":"professor","woord":"de leraar","meervoud":"de leraren","vrouwelijk":"de lerares"},
-		{"palavra":"professor","woord":"de docent","meervoud":"de docenten","vrouwelijk":"de docente"},
+		{"palavra":"professor","woord":"de leraar","meervoud":"de leraren","vrouwelijk":"de lerares","uitleg":"geralmente na escola basico"},
+		{"palavra":"professor","woord":"de docent","meervoud":"de docenten","vrouwelijk":"de docente","uitleg":"geralmente no colegial"},
 		{"palavra":"cantor","woord":"de zanger","meervoud":"de zangers","vrouwelijk":"de zangeres"},
 		{"palavra":"pescador","woord":"de visser","meervoud":"de vissers"},
 		{"palavra":"cabeleireiro","woord":"de kapper","meervoud":"de kappers","vrouwelijk":"de kapster"},
@@ -119,9 +118,9 @@
 		{"palavra":"rei","woord":"koning","meervoud":"de koningen","vrouwelijk":"de koningin"}
 	]
 },{
-	"title":"Communicacao",
+	"title":"Communicacão",
 	"content":[
-		{"palavra":"communicacao","woord":"de communicatie","meervoud":"de communicaties"},
+		{"palavra":"communicacão","woord":"de communicatie","meervoud":"de communicaties"},
 		{"palavra":"e-mail","woord":"de e-mail","meervoud":"de e-mails"},
 		{"palavra":"noticias","woord":"het nieuws"},
 		{"palavra":"esporte","woord":"de sport","meervoud":"de sporten"},
@@ -129,11 +128,11 @@
 		{"palavra":"internet","woord":"het internet"},
 		{"palavra":"jornal","woord":"de krant","meervoud":"de kranten"},
 		{"palavra":"revista","woord":"het tijdschrift","meervoud":"de tijdschriften"},
-		{"palavra":"previsao do tempo","woord":"het weerbericht","meervoud":"de weerberichten"},
+		{"palavra":"previsão do tempo","woord":"het weerbericht","meervoud":"de weerberichten"},
 		{"palavra":"diario","woord":"het journaal","meervoud":"de journaals"},
 		{"palavra":"carta","woord":"de brief","meervoud":"de brieven"},
 		{"palavra":"messagem","woord":"het bericht","meervoud":"de berichten"},
-		{"palavra":"conversacao","woord":"het gesprek","meervoud":"de gesprekken"}
+		{"palavra":"conversacão","woord":"het gesprek","meervoud":"de gesprekken"}
 	]
 },{
 	"title":"Estudo",
@@ -145,7 +144,7 @@
 		{"palavra":"musica","woord":"de muziek"},
 		{"palavra":"livre","woord":"vrij"},
 		{"palavra":"exame","woord":"het examen","meervoud":"de examens"},
-		{"palavra":"licao","woord":"de les","meervoud":"de lessen"},
+		{"palavra":"licão","woord":"de les","meervoud":"de lessen"},
 		{"palavra":"treinamento","woord":"de opleiding","meervoud":"de opleidingen"},
 		{"palavra":"livro","woord":"het boek","meervoud":"de boeken"},
 		{"palavra":"classe","woord":"de klas","meervoud":"de klassen"},
@@ -155,7 +154,7 @@
 		{"palavra":"aluno","woord":"de leerling","meervoud":"de leerlingen"},
 		{"palavra":"quebra","woord":"de pauze","meervoud":"de pauzes"},
 		{"palavra":"jogo","woord":"het spel","meervoud":"de spellen"},
-		{"palavra":"ferias","woord":"de vakantie","meervoud":"de vakanties"},
+		{"palavra":"férias","woord":"de vakantie","meervoud":"de vakanties"},
 		{"palavra":"sala","woord":"het lokaal","meervoud":"de lokalen"},
 		{"palavra":"livro de curso","woord":"het cursusboek","meervoud":"de cursusboeken"},
 		{"palavra":"mochila","woord":"de rugzak","meervoud":"de rugzakken"},
@@ -166,7 +165,7 @@
 	"content":[
 		{"palavra":"trabalho","woord":"het werk"},
 		{"palavra":"dever de casa","woord":"het huiswerk"},
-		{"palavra":"televisao","woord":"de tv, de televisie","meervoud":"de tv's, de televisies"},
+		{"palavra":"televisão","woord":"de televisie","meervoud":"de televisies","uitleg":"também de tv, de tv's"},
 		{"palavra":"radio","woord":"de radio","meervoud":"de radios"},
 		{"palavra":"cama","woord":"het bed","meervoud":"de bedden"},
 		{"palavra":"acordado","woord":"wakker"},
@@ -174,6 +173,7 @@
 		{"palavra":"telefone","woord":"de telefoon","meervoud":"de telefoons"},
 		{"palavra":"numero de telefone","woord":"het telefoonnummer","meervoud":"de telefoonnummers"},
 		{"palavra":"cadeira","woord":"de stoel","meervoud":"de stoelen"},
+		{"palavra":"mesa","woord":"de tafel","meervoud":"de tafels"},
 		{"palavra":"garagem","woord":"de garage","meervoud":"de garages"},
 		{"palavra":"janela","woord":"het raam","meervoud":"de ramen"},
 		{"palavra":"banheiro","woord":"de badkamer","meervoud":"de badkamers"},
@@ -205,8 +205,8 @@
 		{"palavra":"mercado","woord":"de markt","meervoud":"de markten"},
 		{"palavra":"supermercado","woord":"de supermarkt","meervoud":"de supermarkten"},
 		{"palavra":"restorante","woord":"het restaurant","meervoud":"de restaurants"},
-		{"palavra":"estacao","woord":"het station","meervoud":"de stations"},
-		{"palavra":"estacao de treno","woord":"het treinstation","meervoud":"de treinstations"},
+		{"palavra":"estacão","woord":"het station","meervoud":"de stations"},
+		{"palavra":"estacão de treno","woord":"het treinstation","meervoud":"de treinstations"},
 		{"palavra":"zoologico","woord":"de dierentuin","meervoud":"de dierentuinen"},
 		{"palavra":"bloco de apartementos","woord":"het flatgebouw","meervoud":"de flatgebouwen"},
 		{"palavra":"floresta","woord":"het bos","meervoud":"de bossen"},
@@ -261,12 +261,12 @@
 		{"palavra":"coisas","woord":"-","meervoud":"de spullen"},
 		{"palavra":"concerto","woord":"het concert","meervoud":"de concerten"},
 		{"palavra":"boneca","woord":"de pop","meervoud":"de poppen"},
-		{"palavra":"violao","woord":"de gitaar","meervoud":"de gitaren"},
+		{"palavra":"violão","woord":"de gitaar","meervoud":"de gitaren"},
 		{"palavra":"filme","woord":"de film","meervoud":"de films"},
 		{"palavra":"capacete","woord":"de helm","meervoud":"de helmen"},
 		{"palavra":"tenis","woord":"tennis"},
 		{"palavra":"pau","woord":"de stok","meervoud":"de stokken"},
-		{"palavra":"aniversario","woord":"de verjaardag","meervoud":"de verjaardagen"},
+		{"palavra":"aniversário","woord":"de verjaardag","meervoud":"de verjaardagen"},
 		{"palavra":"maquina","woord":"machine","meervoud":"de machines"}
 	]
 },{
@@ -275,17 +275,17 @@
 		{"palavra":"transporte","woord":"het transport","meervoud":"de transporten"},
 		{"palavra":"viagem","woord":"de reis","meervoud":"de reizen"},
 		{"palavra":"treno","woord":"de trein","meervoud":"de treinen"},
-		{"palavra":"onibus","woord":"de bus","meervoud":"de bussen"},
+		{"palavra":"ônibus","woord":"de bus","meervoud":"de bussen"},
 		{"palavra":"carro","woord":"de auto","meervoud":"de auto's"},
 		{"palavra":"barco","woord":"de boot","meervoud":"de boten"},
-		{"palavra":"caminhao","woord":"de vrachtwagen","meervoud":"de vrachtwagens"},
+		{"palavra":"caminhão","woord":"de vrachtwagen","meervoud":"de vrachtwagens"},
 		{"palavra":"ciclomotor","woord":"de brommer","meervoud":"de brommers"},
 		{"palavra":"roda","woord":"het wiel","meervoud":"de wielen"},
 		{"palavra":"na estrada","woord":"onderweg"},
 		{"palavra":"carrinho","woord":"de kar","meervoud":"de karren"},
 		{"palavra":"taxi","woord":"de taxi","meervoud":"de taxis"},
 		{"palavra":"scooter","woord":"de scooter","meervoud":"de scooters"},
-		{"palavra":"aviao","woord":"het vliegtuig","meervoud":"de vliegtuigen"},
+		{"palavra":"avião","woord":"het vliegtuig","meervoud":"de vliegtuigen"},
 		{"palavra":"bicicleta","woord":"de fiets","meervoud":"de fietsen"},
 		{"palavra":"gasolina","woord":"de benzine"},
 		{"palavra":"motor","woord":"de motor","meervoud":"de motoren"}

@@ -1,20 +1,21 @@
 [{
 	"title":"Pronomes",
 	"content":[
-		{"palavra":"o, a","woord":"de, het"},
+		{"palavra":"o, a","woord":"de","uitleg":"usar 'de' e 'het' com palavras, são regras complicadas mas aqui eu coloca a forma correcta pra as palavras"},
+		{"palavra":"o, a","woord":"het","uitleg":"usar 'de' e 'het' com palavras, são regras complicadas mas aqui eu coloca a forma correcta pra as palavras"},
 		{"palavra":"um, uma","woord":"een"},
-		{"palavra":"os, as, uns, umas","woord":"de"}
+		{"palavra":"os, as","woord":"de","uitleg":"com plural você sempre usa 'de' com palavras"}
 	]
 },{
 	"title":"Pronome pessoal",
 	"content":[
 		{"palavra":"Eu","woord":"ik"},
-		{"palavra":"Voce","woord":"jij, je"},
+		{"palavra":"Voce","woord":"jij","uitleg":"também 'je'"},
 		{"palavra":"Ele","woord":"hij"},
 		{"palavra":"Ela","woord":"zij"},
 		{"palavra":"O senhor","woord":"u"},
-		{"palavra":"Eles","woord":"zij, ze"},
-		{"palavra":"Nos","woord":"wij, we"},
+		{"palavra":"Eles","woord":"zij","uitleg":"também 'ze'"},
+		{"palavra":"Nos","woord":"wij","uitleg":"também 'we'"},
 
 		{"palavra":"se","woord":"zich"},
 		{"palavra":"mesmo","woord":"zelf"}
@@ -22,13 +23,17 @@
 },{
 	"title":"Pronomes possessivos",
 	"content":[
-		{"palavra":"meu","woord":"mij, mijn"},
-		{"palavra":"seu","woord":"jouw"},
-		{"palavra":"seu","woord":"hem, zijn"},
-		{"palavra":"seu","woord":"haar"},
-		{"palavra":"seu","woord":"uw"},
-		{"palavra":"deles","woord":"hun"},
-		{"palavra":"nossos","woord":"ons, onze"}
+		{"palavra":"meu","woord":"mijn"},
+		{"palavra":"de mim","woord":"van mij"},
+		{"palavra":"seu","woord":"jouw","uitleg":"usar com masculino e feminina, na situacão 'você'"},
+		{"palavra":"de você","woord":"van jou"},
+		{"palavra":"seu","woord":"zijn","uitleg":"usar com masculino, na situacão 'ele'"},
+		{"palavra":"dele","woord":"van hem"},
+		{"palavra":"seu","woord":"haar","uitleg":"usar com feminina, na situacão 'ela'"},
+		{"palavra":"dela","woord":"van haar"},
+		{"palavra":"seu","woord":"uw","uitleg":"usar com masculino e feminina, na situacão 'o senhor' e 'a senhora'"},
+		{"palavra":"deles,delas","woord":"hun"},
+		{"palavra":"nossos","woord":"ons","uitleg":"também 'onze'"}
 	]
 },{
 	"title":"Dias",
@@ -40,6 +45,22 @@
 		{"palavra":"sexta","woord":"vrijdag"},
 		{"palavra":"sabado","woord":"zaterdag"},
 		{"palavra":"domingo","woord":"zondag"}
+	]
+},{
+	"title":"Meses",
+	"content":[
+		{"palavra":"janeiro","woord":"januari"},
+		{"palavra":"fevereiro","woord":"februari"},
+		{"palavra":"marco","woord":"maart"},
+		{"palavra":"abril","woord":"april"},
+		{"palavra":"maio","woord":"mei"},
+		{"palavra":"junho","woord":"juni"},
+		{"palavra":"julho","woord":"juli"},
+		{"palavra":"agosto","woord":"augustus"},
+		{"palavra":"setembro","woord":"september"},
+		{"palavra":"outubro","woord":"oktober"},
+		{"palavra":"novembro","woord":"november"},
+		{"palavra":"dezembro","woord":"december"}
 	]
 },{
 	"title":"Numeros",
@@ -70,41 +91,47 @@
 	"content":[
 		{"palavra":"e","woord":"en"},
 
-		{"palavra":"esse, aquele","woord":"dat, die","uitleg":"dat (palavras com 'het'), die (palavras com 'de')"},
-		{"palavra":"este","woord":"dit, deze","uitleg":"dit (palavras com 'het'), deze (palavras com 'de')"},
+		{"palavra":"esse, aquele","woord":"dat","uitleg":"pra palavras com 'het'"},
+		{"palavra":"esse, aquele","woord":"die","uitleg":"pra palavras com 'de'"},
+		{"palavra":"este","woord":"dit","uitleg":"pra palavras com 'het'"},
+		{"palavra":"este","woord":"deze","uitleg":"pra palavras com 'de'"},
 
-		{"palavra":"sim","woord":"ja, wel","uitleg":"ja (sozinho), wel (na senha)"},
-		{"palavra":"nao","woord":"nee, niet","uitleg":"nee (sozinho), niet (na senha)"},
-		{"palavra":"bom - melhor - o melhor","woord":"goed - beter - best"},
+		{"palavra":"sim","woord":"ja","uitleg":"palavra sozinha"},
+		{"palavra":"sim","woord":"wel","uitleg":"palavra parte da senha"},
+		{"palavra":"não","woord":"nee","uitleg":"palavra sozinha"},
+		{"palavra":"não","woord":"niet","uitleg":"palavra parte da senha"},
+		{"palavra":"bom","woord":"goed"},
+		{"palavra":"melhor","woord":"beter"},
+		{"palavra":"o melhor","woord":"best"},
 		{"palavra":"bom","woord":"leuk","uitleg":"gostar"},
 		{"palavra":"bem","woord":"fijn"},
 		{"palavra":"mal","woord":"slecht"},
-		{"palavra":"nunca","woord":"geen"},
+		{"palavra":"nada","woord":"geen"},
 		{"palavra":"por favor","woord":"graag"},
 		{"palavra":"linda","woord":"mooi"}
 	]
 },{
 	"title":"Tempo",
 	"content":[
-		{"palavra":"a/as","woord":"om"},
+		{"palavra":"a/as","woord":"om","uitleg":"parte pra explicar o tempo. par exempla: 'às sete horas' significa 'om zeven uur'. nesta casa a plural 'horas' você traduza sempre em singular 'uur'"},
 
 		{"palavra":"noite","woord":"de avond"},
 		{"palavra":"hoje a noite","woord":"vanavond"},
-		{"palavra":"a noite","woord":"'s avonds"},
+		{"palavra":"à noite","woord":"'s avonds"},
 		{"palavra":"de manha","woord":"de ochtend"},
 		{"palavra":"hoje de manha","woord":"vanochtend"},
-		{"palavra":"de manha","woord":"'s ochtends"},
+		{"palavra":"da manha","woord":"'s ochtends"},
 		{"palavra":"hoje","woord":"vandaag"},
 		{"palavra":"tempo","woord":"de tijd"},
 		{"palavra":"dia de festa","woord":"de feestdag"},
-		{"palavra":"amanha","woord":"morgen"},
+		{"palavra":"amanhã","woord":"morgen"},
 		{"palavra":"ontem","woord":"gisteren"},
 
 		{"palavra":"hora","woord":"het uur"},
-		{"palavra":"dia","woord":"de dag(en)"},
+		{"palavra":"dia","woord":"de dag"},
 		{"palavra":"semana","woord":"de week"},
 		{"palavra":"fim de semana","woord":"het weekend"},
-		{"palavra":"mes","woord":"de maand"},
+		{"palavra":"mês","woord":"de maand"},
 		{"palavra":"ano","woord":"het jaar"},
 
 		{"palavra":"cedo","woord":"vroeg"},
@@ -113,12 +140,12 @@
 		{"palavra":"depois","woord":"straks"},
 		{"palavra":"as vezes","woord":"soms"},
 		{"palavra":"muitos vezes","woord":"vaak"},
-		{"palavra":"já","woord":"pas"},
-		{"palavra":"já","woord":"al"},
+		{"palavra":"já","woord":"pas","uitleg":"usar quando uma coisa passa tarde"},
+		{"palavra":"já","woord":"al","uitleg":"usar quando uma coisa passa cedo"},
 		{"palavra":"sempre","woord":"altijd"},
 		{"palavra":"primeiro","woord":"eerst"},
-		{"palavra":"depois","woord":"daarna"},
 		{"palavra":"depois","woord":"later"},
+		{"palavra":"depois","woord":"daarna","uitleg":"depois uma outra coisa, 'depois essa coisa'"},
 		{"palavra":"que","woord":"dan"},
 		{"palavra":"quase","woord":"bijna"},
 		{"palavra":"também","woord":"ook"},
@@ -126,19 +153,23 @@
 		{"palavra":"anterior","woord":"vorige"},
 		{"palavra":"nunca","woord":"nooit"},
 		{"palavra":"geralmente","woord":"meestal"},
-		{"palavra":"entao","woord":"zo"}
+		{"palavra":"então","woord":"zo"}
 	]
 },{
 	"title":"General",
 	"content":[
 		{"palavra":"pronto","woord":"klaar"},
-		{"palavra":"novo","woord":"nieuw(e)"},
+		{"palavra":"novo","woord":"nieuw","uitleg":"quando você fala sobre outra coisa: 'nieuwe'. 'o carro novo' é 'de nieuwe auto'"},
 		{"palavra":"feliz","woord":"blij"},
 		{"palavra":"rapido","woord":"snel"},
 		{"palavra":"lentamente","woord":"langzaam"},
-		{"palavra":"grande - mais grande","woord":"groot - groter"},
+		{"palavra":"mais grande","woord":"groot"},
+		{"palavra":"mais grande","woord":"groter"},
+		{"palavra":"o mais grande","woord":"grootst"},
 		{"palavra":"pequeno","woord":"klein"},
-		{"palavra":"doce - mais doce - o mais doce","woord":"lief -liever - liefst"},
+		{"palavra":"doce","woord":"lief"},
+		{"palavra":"mais doce","woord":"liever"},
+		{"palavra":"o mais doce","woord":"liefst"},
 		{"palavra":"gordo","woord":"dik"},
 		{"palavra":"gebrado","woord":"kapot"},
 		{"palavra":"zangado","woord":"boos"},
@@ -151,9 +182,11 @@
 		{"palavra":"ocupado","woord":"druk"},
 		{"palavra":"quieto","woord":"stil"},
 		{"palavra":"pobre","woord":"arm"},
-		{"palavra":"longo - mais longo - o mais longo","woord":"lang - langer - langst"},
+		{"palavra":"longo","woord":"lang"},
+		{"palavra":"mais longo","woord":"langer"},
+		{"palavra":"o mais longo","woord":"langst"},
 		{"palavra":"pressa","woord":"haast"},
-		{"palavra":"sujo","woord":"vies, vieze"},
+		{"palavra":"sujo","woord":"vies","uitleg":"quando você fala sobre outra coisa: 'vieze'. 'o carro sujo' é 'de vieze auto'"},
 		{"palavra":"fechado","woord":"dicht"},
 		{"palavra":"demi","woord":"half"},
 		{"palavra":"duro","woord":"hard"},
@@ -171,7 +204,7 @@
 		{"palavra":"quando","woord":"wanneer"},
 		{"palavra":"que","woord":"wat"},
 		{"palavra":"quem","woord":"wie"},
-		{"palavra":"qual","woord":"welk, welke"}
+		{"palavra":"qual","woord":"welk","uitleg":"também 'welke'"}
 	]
 },{
 	"title":"Preposicoes, adverbios, alguns",
@@ -180,21 +213,21 @@
 		{"palavra":"em","woord":"in","uitleg":"entre"},
 		{"palavra":"aqui","woord":"hier"},
 		{"palavra":"com","woord":"met"},
-		{"palavra":"para","woord":"naar"},
-		{"palavra":"para","woord":"voor"},
+		{"palavra":"para","woord":"naar","uitleg":"vou para uma lugar"},
+		{"palavra":"para","woord":"voor","uitleg":"para uma coisa"},
+		{"palavra":"para","woord":"aan","uitleg":"quando significa quasi mesmo que 'no'/'na'"},
 		{"palavra":"sobre","woord":"op"},
 		{"palavra":"de","woord":"van"},
 		{"palavra":"fora","woord":"af"},
-		{"palavra":"para","woord":"aan"},
 		{"palavra":"lá","woord":"daar"},
 		{"palavra":"sobre","woord":"over"},
 		{"palavra":"demais","woord":"te"},
 		{"palavra":"contra","woord":"tegen"},
-		{"palavra":"cada","woord":"elk(e)"},
-		{"palavra":"cada","woord":"iedere"},
+		{"palavra":"cada","woord":"elk","uitleg":"também 'elke'. significa mesmo que 'ieder'"},
+		{"palavra":"cada","woord":"ieder","uitleg":"também 'iedere'. significa mesmo que 'elk'"},
 		{"palavra":"em torno","woord":"om"},
-		{"palavra":"fora","woord":"uit"},
-		{"palavra":"fora","woord":"buiten"},
+		{"palavra":"fora","woord":"uit","uitleg":"em relacão das outras coisas"},
+		{"palavra":"fora","woord":"buiten","uitleg":"usar com edificios, par exemplo 'fora da casa'"},
 		{"palavra":"ao lado de","woord":"naast"},
 		{"palavra":"até","woord":"tot"},
 		{"palavra":"longe","woord":"ver"},
@@ -208,7 +241,7 @@
 		{"palavra":"algum","woord":"iets"},
 		{"palavra":"mais","woord":"meer"},
 		{"palavra":"há","woord":"er (er is)"},
-		{"palavra":"perdido","woord":"weg"},
-		{"palavra":"perdido","woord":"kwijt"}
+		{"palavra":"perdido","woord":"kwijt"},
+		{"palavra":"perdido","woord":"weg","uitleg":"naquela situacão significa mesma que 'kwijt'"}
 	]
 }]
