@@ -14,6 +14,7 @@ export class GeneralComponent implements OnInit {
   currentGroup: Collection<General>;
 
   hideSolution: boolean = false;
+  hideDescriptions: boolean = false;
 
   constructor(private generalService: GeneralService) { }
 
@@ -24,10 +25,15 @@ export class GeneralComponent implements OnInit {
   selectGroup(group: Collection<General>){
     this.currentGroup = group;
     this.hideSolution = false;
+    this.hideDescriptions = false;
   }
 
   practice(){
     this.hideSolution = !this.hideSolution;
+  }
+
+  hide(){
+    this.hideDescriptions = !this.hideDescriptions;
   }
 
   clear(){

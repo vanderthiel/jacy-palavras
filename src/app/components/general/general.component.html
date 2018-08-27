@@ -6,24 +6,22 @@
   <div *ngIf="currentGroup !== undefined">
     <h2>{{ currentGroup.title }}</h2>
 
-    <table>
-      <tr>
-        <th>Portugues</th>
-        <th>Holandes</th>
-        <th>Explicação</th>
-      </tr>
-      <tr>
-        <td colspan="3">
-          <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
-          <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
-        </td>
-      </tr>
-      <tr *ngFor="let word of currentGroup.content">
-        <td>{{ word.palavra }}</td>
-        <td *ngIf="!hideSolution || word.isGoed">{{ word.woord }}</td>
-        <td *ngIf="hideSolution && !word.isGoed"><input type="text" (change)="evaluate(word)" [(ngModel)]="word.oplossing" /></td>
-        <td>{{ word.uitleg }}</td>
-      </tr>
-    </table>
+    <div class="table">
+      <div class="row head clearfix">
+        <div class="col por">Portugues</div>
+        <div class="col hol">Holandes</div>
+      </div>
+      <div class="row action clearfix">
+        <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
+        <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
+        <button (click)="hide()">{{ hideDescriptions ? "Com descrições" : "Sem descrições" }}</button>
+      </div>
+      <div class="row content clearfix" *ngFor="let word of currentGroup.content">
+        <div class="col por">{{ word.palavra }}</div>
+        <div class="col hol" *ngIf="!hideSolution || word.isGoed">{{ word.woord }}</div>
+        <div class="col hol" *ngIf="hideSolution && !word.isGoed"><input type="text" (change)="evaluate(word)" [(ngModel)]="word.oplossing" /></div>
+        <div class="col description" *ngIf="word.uitleg && !hideDescriptions">{{ word.uitleg }}</div>
+      </div>
+    </div>
   </div>
 </div>

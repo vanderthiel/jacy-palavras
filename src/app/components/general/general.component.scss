@@ -25,16 +25,42 @@
         }
     }
 
-    table{
-        border-collapse: collapse;
+    .table {
+        .row {
+            width: 100%;
+            margin: 0 0 5px 0;
+            padding: 0;
 
-        tr:nth-child(even){
-            background-color: $color-secondary-1-2;
-        }
+            &.head {
+                background-color: $color-secondary-1-4;
+                color: $color-secondary-1-1;
+            }
 
-        th,td{
-            padding: 10px;
-            border-left: 1px solid $color-secondary-1-4;
+            &.content {
+                border: 1px solid $color-secondary-1-4;
+            }
+
+            .col {
+                float: left;
+                display: block;
+                padding: 5px;
+
+                &.por { width: calc(30% - 10px); }
+                &.hol {
+                    width: calc(60% - 11px);
+                    border-left: 1px solid $color-secondary-1-4;
+                }
+                &.description {
+                    width: calc(100% - 10px);
+                    border-top: 1px dashed $color-secondary-1-4;
+                    background-color: $color-secondary-2-2;
+                    color: $color-secondary-2-4;
+                }
+
+                input {
+                    width: 90%;
+                }
+            }
         }
     }
 }
