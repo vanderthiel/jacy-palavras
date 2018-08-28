@@ -14,6 +14,7 @@ export class PalavrasComponent implements OnInit {
   currentGroup: Collection<Palavra>;
 
   hideSolution: boolean = false;
+  hideDescriptions: boolean = false;
 
   constructor(private palavrasService: PalavrasService) { }
 
@@ -24,10 +25,15 @@ export class PalavrasComponent implements OnInit {
   selectGroup(group: Collection<Palavra>){
     this.currentGroup = group;
     this.hideSolution = false;
+    this.hideDescriptions = false;
   }
 
   practice(){
     this.hideSolution = !this.hideSolution;
+  }
+
+  hide(){
+    this.hideDescriptions = !this.hideDescriptions;
   }
 
   clear(){

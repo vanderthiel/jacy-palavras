@@ -4,32 +4,30 @@
   </ul>
 
   <div *ngIf="currentGroup !== undefined">
-      <h2>{{ currentGroup.title }}</h2>
+    <h2>{{ currentGroup.title }}</h2>
 
-      <table>
-        <tr>
-          <th>Portugues</th>
-          <th>Holandes</th>
-          <th>Plural</th>
-          <th>Feminina</th>
-          <th>Explicação</th>
-        </tr>
-        <tr>
-          <td colspan="5">
-            <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
-            <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
-          </td>
-        </tr>
-        <tr *ngFor="let word of currentGroup.content">
-          <td>{{ word.palavra }}</td>
-          <td *ngIf="!hideSolution || word.isGoed">{{ word.woord }}</td>
-          <td *ngIf="hideSolution && !word.isGoed"><input type="text" (change)="evaluate(word)" [(ngModel)]="word.oplossing" /></td>
-          <td *ngIf="!hideSolution || word.isGoed">{{ word.meervoud }}</td>
-          <td *ngIf="hideSolution && !word.isGoed"></td>
-          <td *ngIf="!hideSolution || word.isGoed">{{ word.vrouwelijk }}</td>
-          <td *ngIf="hideSolution && !word.isGoed"></td>
-          <td>{{ word.uitleg }}</td>
-        </tr>
-      </table>
+    <div class="table">
+      <div class="row head clearfix">
+        <div class="col por">Portugues</div>
+        <div class="col hol">Holandes</div>
+      </div>
+      <div class="row action clearfix">
+        <button (click)="practice()">{{ hideSolution ? "Pare" : "Comece" }}</button>
+        <button (click)="clear()" *ngIf="hideSolution">Apagar solucoes</button>
+        <button (click)="hide()">{{ hideDescriptions ? "Com descrições" : "Sem descrições" }}</button>
+      </div>
+      <div class="row content clearfix" *ngFor="let word of currentGroup.content">
+        <div class="col por">{{ word.palavra }}</div>
+        <div class="col hol">
+          <div class="word" *ngIf="!hideSolution || word.isGoed"><span class="label">Palavra</span> {{ word.woord }}</div>
+          <div class="word" *ngIf="hideSolution && !word.isGoed"><span class="label">Palavra</span> <input type="text" (change)="evaluate(word)" [(ngModel)]="word.oplossing" /></div>
+          <div class="word" *ngIf="word.meervoud && (!hideSolution || word.isGoed)"><span class="label">Plural</span> {{ word.meervoud }}</div>
+          <div class="word" *ngIf="word.meervoud && hideSolution && !word.isGoed"><span class="label">Plural</span> -</div>
+          <div class="word" *ngIf="word.vrouwelijk && (!hideSolution || word.isGoed)"><span class="label">Feminina</span> {{ word.vrouwelijk }}</div>
+          <div class="word" *ngIf="word.vrouwelijk && hideSolution && !word.isGoed"><span class="label">Feminina</span> -</div>
+        </div>
+        <div class="col description" *ngIf="word.uitleg && !hideDescriptions">{{ word.uitleg }}</div>
+      </div>
     </div>
   </div>
+</div>
