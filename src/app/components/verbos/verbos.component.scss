@@ -25,6 +25,60 @@
         }
     }
 
+    .table {
+        .row {
+            width: 100%;
+            margin: 0 0 5px 0;
+            padding: 0;
+
+            &.head {
+                background-color: $color-secondary-1-4;
+                color: $color-secondary-1-1;
+            }
+
+            &.content {
+                border: 1px solid $color-secondary-1-4;
+            }
+
+            .col {
+                float: left;
+                display: block;
+                padding: 5px;
+
+                &.por { width: calc(30% - 10px); }
+                &.hol {
+                    width: calc(70% - 11px);
+                    border-left: 1px solid $color-secondary-1-4;
+
+                    .word {
+                        .label {
+                            border-radius: 5px;
+                            background-color: $color-secondary-1-4;
+                            color: $color-secondary-1-1;
+                            font-size: 12px;
+                            padding: 3px;
+                            font-style: italic;
+                        }
+                    }
+                }
+                &.description {
+                    width: calc(100% - 10px);
+                    border-top: 1px dashed $color-secondary-1-4;
+                    background-color: $color-secondary-2-2;
+                    color: $color-secondary-2-4;
+                }
+                &.details {
+                    width: calc(100% - 10px);
+                    border-top: 1px dotted $color-secondary-1-4;
+                }
+
+                input {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
     table{
         border-collapse: collapse;
         float: left;

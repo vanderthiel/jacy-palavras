@@ -17,9 +17,11 @@ export class VerbosComponent implements OnInit {
   common: Common;
   groups: Array<Collection<Verbo>>;
   currentGroup: Collection<Verbo>;
+  selectedVerb: Verbo;
   currentVerb: Array<VerbForm>;
 
   hideSolution: boolean = false;
+  hideDescriptions: boolean = false;
 
   constructor(private verbosService: VerbosService, private commonService: CommonService) { }
 
@@ -31,11 +33,17 @@ export class VerbosComponent implements OnInit {
   selectGroup(group: Collection<Verbo>){
     this.currentGroup = group;
     this.hideSolution = false;
+    this.hideDescriptions = false;
     this.currentVerb = null;
+    this.selectedVerb = null;
   }
 
   practice(){
     this.hideSolution = !this.hideSolution;
+  }
+
+  hide(){
+    this.hideDescriptions = !this.hideDescriptions;
   }
 
   clear(){
@@ -62,9 +70,14 @@ export class VerbosComponent implements OnInit {
   }
 
   details(verb:Verbo){
-    this.currentVerb = _.zip(this.common.pronouns, verb.heden, verb.verleden).map(function(coll) { 
-      return _.object(["person","present","past"],coll);
-    });
+    if(this.selectedVerb && this.selectedVerb.werkwoord === verb.werkwoord) {
+      this.selectedVerb = null;
+      this.currentVerb = null;
+    } else {
+      this.selectedVerb = verb;
+      this.currentVerb = _.zip(this.common.pronouns, verb.heden, verb.verleden).map(function(coll) { 
+        return _.object(["person","present","past"],coll);
+      });
+    }
   }
-
 }
