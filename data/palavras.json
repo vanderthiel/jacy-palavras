@@ -44,17 +44,20 @@
 	"title":"Comidas e Bebidas",
 	"content":[
 		{"palavra":"comida","woord":"het eten"},
-		{"palavra":"bebida","woord":"het drinken"},
+		{"palavra":"bebida","woord":"het drankje","meervoud":"de drankjes"},
 		{"palavra":"com sede","woord":"dorst"},
 		{"palavra":"com fome","woord":"honger"},
 
 		{"palavra":"aqua","woord":"het water"},
 		{"palavra":"banana","woord":"de banaan","meervoud":"de bananen"},
+		{"palavra":"maca","woord":"de appel","meervoud":"de appels"},
+		{"palavra":"morango","woord":"de aardbei","meervoud":"de aardbeien"},
 		{"palavra":"laranja","woord":"de sinaasappel","meervoud":"de sinaasappels"},
 		{"palavra":"biscoito","woord":"het koekje","meervoud":"de koekjes"},
 		{"palavra":"vegetal","woord":"de groente","meervoud":"de groenten"},
 		{"palavra":"fruta","woord":"het fruit"},
 		{"palavra":"alcool","woord":"de alcohol"},
+		{"palavra":"cerveja","woord":"het bier"},
 		{"palavra":"pao","woord":"het brood","meervoud":"de broden"},
 		{"palavra":"uva","woord":"de druif","meervoud":"de druiven"},
 		{"palavra":"torta","woord":"de taart","meervoud":"de taarten"},
@@ -75,20 +78,27 @@
 		{"palavra":"cebola","woord":"de ui","meervoud":"de uien"},
 		{"palavra":"arroz","woord":"de rijst"},
 		{"palavra":"milho","woord":"de maïs"},
-		{"palavra":"bebida","woord":"het drankje","meervoud":"de drankjes"},
 		{"palavra":"cha","woord":"de thee"},
-		{"palavra":"herbo","woord":"het kruid","meervoud":"de kruiden"},
+		{"palavra":"ervas","woord":"het kruid","meervoud":"de kruiden"},
 
 		{"palavra":"xicara","woord":"het kopje","meervoud":"de kopjes"},
 		{"palavra":"copo","woord":"het glas","meervoud":"de glazen"},
 		{"palavra":"prato","woord":"het bord","meervoud":"de borden"},
 		{"palavra":"colher","woord":"de lepel","meervoud":"de lepels"},
-		{"palavra":"café de manha","woord":"het ontbijt"}
+		{"palavra":"garfo","woord":"de vork","meervoud":"de vorken"},
+		{"palavra":"faca","woord":"het mes","meervoud":"de messen"},
+		{"palavra":"café de manha","woord":"het ontbijt"},
+		{"palavra":"almoco","woord":"de lunch"},
+		{"palavra":"jantar","woord":"het diner"}
 	]
 },{
 	"title":"Animais",
 	"content":[
 		{"palavra":"animal","woord":"het dier","meervoud":"de dieren"},
+		{"palavra":"gata","woord":"de poes","meervoud":"de poezen"},
+		{"palavra":"gato","woord":"de kat","meervoud":"de katten"},
+		{"palavra":"pato","woord":"de eend","meervoud":"de eenden"},
+		{"palavra":"camarão","woord":"de garnaal","meervoud":"de garnalen"},
 		{"palavra":"frango","woord":"de kip","meervoud":"de kippen"},
 		{"palavra":"cavalo","woord":"het paard","meervoud":"de paarden"},
 		{"palavra":"cachorro","woord":"de hond","meervoud":"de honden"},
@@ -190,6 +200,7 @@
 	"title":"Fora da casa",
 	"content":[
 		{"palavra":"casa","woord":"het huis","meervoud":"de huizen"},
+		{"palavra":"apartamento","woord":"het appartement","meervoud":"de appartementen"},
 		{"palavra":"hospital","woord":"het ziekenhuis","meervoud":"de ziekenhuizen"},
 		{"palavra":"em casa","woord":"thuis"},
 		{"palavra":"pais","woord":"het land","meervoud":"de landen"},

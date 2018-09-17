@@ -74,7 +74,9 @@
 		{"palavra":"sete","woord":"zeven"},
 		{"palavra":"oito","woord":"acht"},
 		{"palavra":"nove","woord":"negen"},
-		{"palavra":"dez","woord":"tien"}
+		{"palavra":"dez","woord":"tien"},
+		{"palavra":"onze","woord":"elf"},
+		{"palavra":"doze","woord":"twaalf"}
 	]
 },{
 	"title":"Cor",
@@ -83,6 +85,9 @@
 		{"palavra":"vermelho","woord":"rood"},
 		{"palavra":"verde","woord":"groen"},
 		{"palavra":"azul","woord":"blauw"},
+		{"palavra":"laranja","woord":"oranje"},
+		{"palavra":"roza","woord":"roze"},
+		{"palavra":"roxa","woord":"paars"},
 		{"palavra":"branco","woord":"wit"},
 		{"palavra":"preto","woord":"zwart"}
 	]
@@ -103,7 +108,7 @@
 		{"palavra":"bom","woord":"goed"},
 		{"palavra":"melhor","woord":"beter"},
 		{"palavra":"o melhor","woord":"best"},
-		{"palavra":"bom","woord":"leuk","uitleg":"gostar"},
+		{"palavra":"divertido","woord":"leuk"},
 		{"palavra":"bem","woord":"fijn"},
 		{"palavra":"mal","woord":"slecht"},
 		{"palavra":"nada","woord":"geen"},
@@ -140,8 +145,8 @@
 		{"palavra":"depois","woord":"straks"},
 		{"palavra":"as vezes","woord":"soms"},
 		{"palavra":"muitos vezes","woord":"vaak"},
-		{"palavra":"já","woord":"pas","uitleg":"usar quando uma coisa passa tarde"},
-		{"palavra":"já","woord":"al","uitleg":"usar quando uma coisa passa cedo"},
+		{"palavra":"só","woord":"pas","uitleg":"quando você precisa esperar mail longe que você quer<br/>Par exemplo: só depois três horas"},
+		{"palavra":"já","woord":"al","uitleg":"Par exemplo: você já deixa"},
 		{"palavra":"sempre","woord":"altijd"},
 		{"palavra":"primeiro","woord":"eerst"},
 		{"palavra":"depois","woord":"later"},
