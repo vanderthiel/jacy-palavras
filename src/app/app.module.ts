@@ -14,6 +14,8 @@ import { GeneralComponent } from './components/general/general.component';
 import { PalavrasComponent } from './components/palavras/palavras.component';
 import { VerbosComponent } from './components/verbos/verbos.component';
 import { HomeComponent } from './components/home/home.component';
+import { ConverseComponent } from './components/converse/converse.component';
+import { ConversesService } from './services/converses.service';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,13 @@ import { HomeComponent } from './components/home/home.component';
     GeneralComponent,
     PalavrasComponent,
     VerbosComponent,
-    HomeComponent
+    HomeComponent,
+    ConverseComponent
   ],
   imports: [
     BrowserModule, FormsModule, HttpModule, AppRoutingModule
   ],
-  providers: [CommonService, GeneralService, PalavrasService, VerbosService],
+  providers: [CommonService, GeneralService, PalavrasService, VerbosService, ConversesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,12 @@
+[{
+	"title":"Bom dia",
+	"content":[
+		{"audience":"first","senha":"bom dia","zin":"goede dag"},
+		{"audience":"second","senha":"ola","zin":"hallo"},
+		{"audience":"first","senha":"como vai?","zin":"hoe gaat het?"},
+		{"audience":"second","senha":"vai bem, e com você?","zin":"het gaat goed, en met jou?"},
+		{"audience":"first","senha":"bem","zin":"goed"},
+		{"audience":"first","senha":"até logo","zin":"tot snel"},
+		{"audience":"second","senha":"ciao","zin":"doei"}
+	]
+}]

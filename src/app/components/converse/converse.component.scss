@@ -1,0 +1,62 @@
+@import '../../../variables';
+
+.converse{
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    background-color: $color-secondary-1-1;
+    color: $color-secondary-1-4;
+    border: 2px solid $color-secondary-1-0;
+
+    .groups{
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+
+        .group{
+            margin: 10px;
+            padding: 5px;
+            display: block;
+            float: left;
+            background-color: $color-secondary-1-1;
+            border: 1px solid $color-secondary-1-0;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+
+    .table {
+        .row {
+            width: 100%;
+            margin: 0 0 5px 0;
+            padding: 0;
+
+            &.content {
+                border: 1px solid $color-secondary-1-4;
+            }
+
+            .col {
+                float: left;
+                display: block;
+                padding: 5px;
+
+                &.left {
+                    float: left;
+                    margin-right: 50px;
+                    width: calc(100% - 60px);
+                }
+                &.right {
+                    float: right;
+                    margin-left: 50px;
+                    width: calc(100% - 60px);
+                }
+
+                &.por {
+                    background-color: $color-secondary-2-2;
+                    color: $color-secondary-2-4;
+                }
+                &.hol {  }
+            }
+        }
+    }
+}

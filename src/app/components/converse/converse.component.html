@@ -1,0 +1,16 @@
+<div class="converse">
+  <div *ngIf="groups !== undefined" class="groups clearfix">
+      <div *ngFor="let converse of groups" class="group" (click)="selectGroup(converse)">{{ converse.title }}</div>
+  </div>
+
+  <div *ngIf="current !== undefined">
+    <h2>{{ current.title }}</h2>
+
+    <div class="table">
+      <div class="row content clearfix" *ngFor="let senha of current.content">
+        <div class="col hol" [ngClass]="{'left':senha.audience === 'first','right':senha.audience === 'second'}">{{ senha.zin }}</div>
+        <div class="col por" [ngClass]="{'left':senha.audience === 'first','right':senha.audience === 'second'}">{{ senha.senha }}</div>
+      </div>
+    </div>
+  </div>
+</div>
