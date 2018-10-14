@@ -7,9 +7,14 @@
     <h2>{{ current.title }}</h2>
 
     <div class="table">
+      <div class="row action clearfix">
+        <button (click)="switchPortugees()">{{ showPortugees ? "Sem Português" : "Com Português" }}</button>
+      </div>
       <div class="row content clearfix" *ngFor="let senha of current.content">
-        <div class="col hol" [ngClass]="{'left':senha.audience === 'first','right':senha.audience === 'second'}">{{ senha.zin }}</div>
-        <div class="col por" [ngClass]="{'left':senha.audience === 'first','right':senha.audience === 'second'}">{{ senha.senha }}</div>
+        <div class="col" [ngClass]="{'left':senha.audience === 'first','right':senha.audience === 'second'}">
+          <div class="hol">{{ senha.zin }}</div>
+          <div class="por" *ngIf="showPortugees">{{ senha.senha }}</div>
+        </div>
       </div>
     </div>
   </div>

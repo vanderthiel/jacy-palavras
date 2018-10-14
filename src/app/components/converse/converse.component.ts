@@ -12,9 +12,7 @@ export class ConverseComponent implements OnInit {
 
   groups: Array<Collection<Converse>>;
   current: Collection<Converse>;
-
-  hideSolution: boolean = false;
-  hideDescriptions: boolean = false;
+  showPortugees: boolean = true;
 
   constructor(private conversesService: ConversesService) { }
 
@@ -24,6 +22,10 @@ export class ConverseComponent implements OnInit {
 
   selectGroup(group: Collection<Converse>){
     this.current = group;
+  }
+
+  switchPortugees() {
+    this.showPortugees = !this.showPortugees;
   }
 
 }

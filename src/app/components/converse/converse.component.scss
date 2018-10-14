@@ -33,29 +33,34 @@
 
             &.content {
                 border: 1px solid $color-secondary-1-4;
+                background-color: white;
+                max-width: 500px;
             }
 
             .col {
                 float: left;
                 display: block;
-                padding: 5px;
+                margin: 5px;
+                border: 1px solid $color-secondary-1-4;
 
                 &.left {
                     float: left;
                     margin-right: 50px;
-                    width: calc(100% - 60px);
                 }
                 &.right {
                     float: right;
                     margin-left: 50px;
-                    width: calc(100% - 60px);
                 }
 
-                &.por {
+                .por {
+                    padding: 5px;
                     background-color: $color-secondary-2-2;
                     color: $color-secondary-2-4;
                 }
-                &.hol {  }
+                .hol {
+                    padding: 5px;
+                    background-color: $color-secondary-1-1;
+                }
             }
         }
     }
