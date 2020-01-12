@@ -6,13 +6,18 @@
   <div *ngIf="current !== undefined">
     <h2>{{ current.title }}</h2>
 
+    <audio *ngIf="current.audio" controls>
+      <source src="{{ current.audio }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
     <div class="table">
       <div class="row action clearfix">
         <button (click)="switchPortugees()">{{ showPortugees ? "Sem Português" : "Com Português" }}</button>
       </div>
       <div class="row content clearfix" *ngFor="let senha of current.content">
-        <div class="col" [ngClass]="{'left':senha.audience === 'first','right':senha.audience === 'second'}">
-          <div class="hol">{{ senha.zin }}</div>
+        <div class="col" [ngClass]="{'left':senha.audience === 'first','right':senha.audience === 'second'}" (click)="play(senha.audio)">
+          <div class="hol">{{ senha.audio ? '[&#9658;]' : '' }} {{ senha.zin }}</div>
           <div class="por" *ngIf="showPortugees">{{ senha.senha }}</div>
         </div>
       </div>

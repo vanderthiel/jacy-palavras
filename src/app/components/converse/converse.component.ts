@@ -28,4 +28,10 @@ export class ConverseComponent implements OnInit {
     this.showPortugees = !this.showPortugees;
   }
 
+  play(audio) {
+    if(audio){
+      new Audio(audio).play()
+    }
+  }
+
 }
