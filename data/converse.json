@@ -151,17 +151,18 @@
 	]
 },{
 	"title":"Comer",
+	"audio": "/audio/comer/all.mp3",
 	"content":[
-		{"audience":"first","senha":"O que você gosta de beber?","zin":"Wat drinkt u graag?"},
-		{"audience":"second","senha":"Gosto de café","zin":"Ik vind koffie lekker"},
-		{"audience":"first","senha":"O que você come a noite?","zin":"Wat eet u 's avonds?"},
-		{"audience":"second","senha":"A noite como feijão","zin":"'S avonds eet ik bonen met rijst"},
-		{"audience":"first","senha":"O que você come de manhã?","zin":"Wat eet u 's ochtends?"},
-		{"audience":"second","senha":"De manha eu gosto de comer pão","zin":"'S ochtends eet ik graag brood"},
-		{"audience":"first","senha":"O que você comeu ontem?","zin":"Wat hebt u gisteren gegeten?"},
-		{"audience":"second","senha":"Ontem eu comi feijão","zin":"Gisteren heb ik bonen met rijst gegeten"},
-		{"audience":"first","senha":"O que você gosta de cozinhar?","zin":"Wat kookt u graag?"},
-		{"audience":"second","senha":"Eu gosto de cozinhar comidas de Brasil","zin":"Ik kook graag Braziliaanse gerechten"}
+		{"audience":"first","senha":"O que você gosta de beber?","zin":"Wat drinkt u graag?", "audio": "/audio/comer/watdrinkt.mp3"},
+		{"audience":"second","senha":"Gosto de café","zin":"Ik vind koffie lekker", "audio": "/audio/comer/koffie.mp3"},
+		{"audience":"first","senha":"O que você come a noite?","zin":"Wat eet u 's avonds?", "audio": "/audio/comer/wateet.mp3"},
+		{"audience":"second","senha":"A noite como feijão","zin":"'S avonds eet ik bonen met rijst", "audio": "/audio/comer/bonenrijst.mp3"},
+		{"audience":"first","senha":"O que você come de manhã?","zin":"Wat eet u 's ochtends?", "audio": "/audio/comer/wateetochtend.mp3"},
+		{"audience":"second","senha":"De manha eu gosto de comer pão","zin":"'S ochtends eet ik graag brood", "audio": "/audio/comer/brood.mp3"},
+		{"audience":"first","senha":"O que você comeu ontem?","zin":"Wat hebt u gisteren gegeten?", "audio": "/audio/comer/wateetgisteren.mp3"},
+		{"audience":"second","senha":"Ontem eu comi feijão","zin":"Gisteren heb ik bonen met rijst gegeten", "audio": "/audio/comer/bonenrijstgisteren.mp3"},
+		{"audience":"first","senha":"O que você gosta de cozinhar?","zin":"Wat kookt u graag?", "audio": "/audio/comer/watkookt.mp3"},
+		{"audience":"second","senha":"Eu gosto de cozinhar comidas de Brasil","zin":"Ik kook graag Braziliaanse gerechten", "audio": "/audio/comer/kookbraziliaans.mp3"}
 	]
 },{
 	"title": "P.1",
