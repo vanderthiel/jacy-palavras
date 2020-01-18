@@ -60,7 +60,7 @@
 		{"audience":"first","senha":"Que tipo de roupa você gosta?","zin":"Wat voor kleren vindt u mooi?", "audio": "/audio/voce/watklerenmooi.mp3"},
 		{"audience":"second","senha":"Eu gosto das roupas confortaveis","zin":"Ik vind comfortabele kleren mooi", "audio": "/audio/voce/klerenmooi.mp3"},
 		{"audience":"first","senha":"De quais animais você gosta?","zin":"Welke dieren vindt u leuk?", "audio": "/audio/voce/welkedieren.mp3"},
-		{"audience":"second","senha":"Eu gosto dos gatos","zin":"Ik vind katten leuk"}, "audio": "/audio/voce/dieren.mp3",
+		{"audience":"second","senha":"Eu gosto dos gatos","zin":"Ik vind katten leuk", "audio": "/audio/voce/dieren.mp3"},
 		{"audience":"first","senha":"Qual cor você gosta?","zin":"Welke kleur vindt u mooi?", "audio": "/audio/voce/welkekleur.mp3"},
 		{"audience":"second","senha":"Eu gosto de preto","zin":"Ik vind zwart mooi", "audio": "/audio/voce/kleur.mp3"}
 	]
